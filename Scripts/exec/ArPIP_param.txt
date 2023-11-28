@@ -1,0 +1,15 @@
+analysis_name=HIVb_ArPIP
+alphabet=Protein
+input.sequence.file=/cfs/earth/scratch/seppemic/TM/results/MSA/vpu/HIV-1_vpu_MSA_ProPIP_1:272.4.fasta
+input.sequence.sites_to_use=all
+init.tree=user
+input.tree.file=/cfs/earth/scratch/seppemic/TM/data/vpu_subset/HIV-1_vpu_timetree_subset_1:272.4.nwk
+model=PIP(model=WAG01)
+opt.seed=1
+opt.pip_param_estimate=1
+output.msa.file=/cfs/earth/scratch/seppemic/TM/results/AR/vpu/ProPIP_ArPIP/HIV-1_vpu_MSA_ProPIP_AR_ArPIP_1:272.4.fasta
+output.tree.file=/cfs/earth/scratch/seppemic/TM/results/AR/vpu/ProPIP_ArPIP/HIV-1_vpu_MSA_ProPIP_AR_ArPIP_1:272.4.nwk
+output.ancestral.file=/cfs/earth/scratch/seppemic/TM/results/AR/vpu/ProPIP_ArPIP/HIV-1_vpu_MSA_ProPIP_AR_ArPIP_1:272.4.ancestral.fasta
+output.node_rel.file=/cfs/earth/scratch/seppemic/TM/results/AR/vpu/ProPIP_ArPIP/HIV-1_vpu_MSA_ProPIP_AR_ArPIP_1:272.4.node_rel.txt
+output.mlindelpoints.file=/cfs/earth/scratch/seppemic/TM/results/AR/vpu/ProPIP_ArPIP/HIV-1_vpu_MSA_ProPIP_AR_ArPIP_1:272.4.mlindelpoints.txt
+output.pipparams.file=/cfs/earth/scratch/seppemic/TM/results/AR/vpu/ProPIP_ArPIP/HIV-1_vpu_MSA_ProPIP_AR_ArPIP_1:272.4.pipparams.txt
