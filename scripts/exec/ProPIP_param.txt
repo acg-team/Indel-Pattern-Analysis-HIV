@@ -1,0 +1,13 @@
+analysis_name=HIVb_ProPIP
+model_description=WAG01+PIP
+alphabet=Protein
+alignment=true
+alignment.version=ram
+input.sequence.file=/cfs/earth/scratch/seppemic/TM/data/rev_subset/rev_sub_1:244.fasta
+input.sequence.sites_to_use=all
+init.tree=user
+input.tree.file=/cfs/earth/scratch/seppemic/TM/data/rev_subset/HIV-1_rev_timetree_subset_1:244.nwk
+model=PIP(model=WAG01)
+rate_distribution=Constant
+optimization=None
+output.msa.file=/cfs/earth/scratch/seppemic/TM/results/MSA/rev/HIV-1_rev_MSA_ProPIP_1:244.fasta
