@@ -1,0 +1,43 @@
+
+LEAST-SQUARE METHODS TO ESTIMATE RATES AND DATES - v.2.3 
+
+
+Input files:
+  i                                               Input tree file : /cfs/earth/scratch/iglh/Masterthesis_Mickaël/data/vpu/HIV-1_vpu_DNA_mafft_alignment.fasta.timetree.subst
+  d                                               Input date file : /cfs/earth/scratch/iglh/Masterthesis_Mickaël/data/vpu/HIV-1_vpu_DNA_mafft_alignment.fasta.timetree.date
+  p                                                Partition file : No
+  g                                       File contains outgroups : /cfs/earth/scratch/iglh/Masterthesis_Mickaël/data/vpu/HIV-1_vpu_DNA_mafft_alignment.fasta.timetree.outgroup
+  G                       Remove outgroups in the estimating tree : No
+Output file:
+  o                                                  Output file  : /cfs/earth/scratch/iglh/Masterthesis_Mickaël/data/vpu/HIV-1_vpu_DNA_mafft_alignment.fasta.timetree
+Parameters:
+  a                                                     Root date : No
+  z                                                     Tips date : No
+  c                                              With constraints : Yes
+  t                                      Lower bound for the rate : 1e-10
+  v                                                With variances : Yes, use variances based on input branch lengths
+  b                              Adjusted parameter for variances : To estimate
+  r                                             Estimate the root : On the branch given by the outgroups
+  w                                       Given substitution rate : No
+  n                                             Multiple data set : No
+  f                                  Compute confidence intervals : No
+  e                                          Exclude outlier tips : No
+  u                Min internal branch length of time scaled tree : 1e-05
+  U                Min external branch length of time scaled tree : 0
+  l                        Collapsed internal branch length limit : 0
+  D                                            Output date format : Based on input date format
+  E  Estimate rates for external and internal branches separately : No
+
+  h to print Help 
+  y to accept or type a letter to change an option (x = Exit) 
+Tree 1 
+Parameter to adjust variances was set to 0.0296325 (settable via option -b)
+Minimum branch length of time scaled tree (settable via option -u and -U): 1e-05
+
+*RESULTS:
+- Dating results:
+ rate 0.00208927, tMRCA 1954-05-10 , objective function 7.84891
+
+*********************************************************
+
+TOTAL ELAPSED TIME: 0.148205 seconds

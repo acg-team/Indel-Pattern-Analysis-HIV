@@ -1,0 +1,1860 @@
+IQ-TREE multicore version 2.2.0.7 COVID-edition for Linux 64-bit built Oct 17 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    node041 (AVX512, FMA3, 188 GB RAM)
+Command: /cfs/earth/scratch/iglh/localapps/iqtree-2.2.0.7-Linux/bin/iqtree2 -s /cfs/earth/scratch/iglh/Masterthesis_Mickaël/data/vpr/HIV-1_vpr_DNA_mafft_alignment.fasta --date /cfs/earth/scratch/iglh/Masterthesis_Mickaël/data/vpr/date_file_vpr.txt -o B.FR.1983.HXB2-LAI-IIIB-BRU.K03455 --date-options -l 0.0 -u 0.00001 --redo
+Seed:    890835 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Sep  1 01:28:17 2023
+Kernel:  AVX+FMA - 1 threads (24 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 24 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file /cfs/earth/scratch/iglh/Masterthesis_Mickaël/data/vpr/HIV-1_vpr_DNA_mafft_alignment.fasta ... Fasta format detected
+Reading fasta file: done in 0.0043799 secs using 83.65% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0033042 secs using 58.8% CPU
+Alignment has 698 sequences with 333 columns, 293 distinct patterns
+211 parsimony-informative, 43 singleton sites, 79 constant sites
+                                                             Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000508422 secs using 71.2% CPU
+   1  B.FR.1983.HXB2-LAI-IIIB-BRU.K03455                            12.31%    passed     97.37%
+   2  B.FR.1983.IIIB_LAI.A04321                                     12.61%    passed     99.15%
+   3  B.FR.1985.NL43xWC001.AF003887                                 12.61%    passed     97.67%
+   4  B.FR.1985.NL43E9_LAI_IIIB_NY5.AF070521                        15.62%    passed     99.11%
+   5  B.ES.1989.S61I1.AF256204                                      12.61%    passed     94.35%
+   6  B.GB.1986.GB8_46R.AJ271445                                    12.61%    passed     94.94%
+   7  B.NL.1999.671_99T12.AY423381                                  12.61%    passed     98.44%
+   8  B.ES.2001.7.AY444319                                          12.61%    passed     99.89%
+   9  B.ES.2001.10.AY444320                                         12.61%    passed     96.36%
+  10  B.ES.2001.9.AY444321                                          12.61%    passed     97.72%
+  11  B.ES.2001.5.AY444322                                          12.61%    passed     99.43%
+  12  B.ES.2001.17.AY444323                                         13.81%    passed     96.99%
+  13  B.ES.2001.18.AY444324                                         12.91%    passed     98.77%
+  14  B.ES.2001.14.AY444325                                         12.61%    passed     97.52%
+  15  B.ES.2001.6.AY444326                                          12.61%    passed     97.83%
+  16  B.ES.2001.15.AY444327                                         13.21%    passed     99.08%
+  17  B.ES.2001.2.AY444328                                          12.91%    passed     98.44%
+  18  B.ES.2001.3.AY444329                                          12.61%    passed     99.89%
+  19  B.ES.2001.11.AY444330                                         12.61%    passed     36.63%
+  20  B.ES.2001.1.AY444331                                          13.51%    passed     99.29%
+  21  B.ES.2001.13.AY444332                                         10.81%    passed     99.62%
+  22  B.ES.2001.4.AY444333                                          12.61%    passed     96.36%
+  23  B.ES.2001.19.AY444334                                         12.91%    passed     90.71%
+  24  B.ES.2001.16.AY444335                                         12.61%    passed     95.45%
+  25  B.ES.2001.12.AY444336                                         12.61%    passed     37.87%
+  26  B.FR.1992.92FR_BX08.AY713411                                  12.61%    passed     93.81%
+  27  B.NL.1986.H434-8-A3.AY970946                                  12.61%    passed     94.35%
+  28  B.GB.1983.CAM1.D10112                                         12.61%    passed     96.94%
+  29  B.IT.2005.SG1.DQ672623                                        12.31%    passed     87.80%
+  30  B.DK.2004.PMVL_018.EF514697                                   14.41%    passed     89.96%
+  31  B.DK.2004.PMVL_027.EF514698                                   11.71%    passed     94.54%
+  32  B.DK.2004.PMVL_012.EF514699                                   12.61%    passed     99.28%
+  33  B.DK.2004.PMVL_013.EF514700                                   10.21%    passed     98.75%
+  34  B.DK.2004.PMVL_049.EF514701                                   12.61%    passed     94.81%
+  35  B.DK.2004.PMVL_025.EF514702                                   12.61%    passed     94.67%
+  36  B.DK.2004.PMVL_039.EF514703                                   12.61%    passed    100.00%
+  37  B.DK.2001.CTL_016.EF514704                                    12.61%    passed     99.89%
+  38  B.DK.2001.CTL_017.EF514705                                    13.51%    passed     97.92%
+  39  B.DK.2001.CTL_018.EF514706                                    12.61%    passed     97.88%
+  40  B.DK.2001.CTL_023.EF514707                                    12.91%    passed     96.87%
+  41  B.DK.2001.CTL_030.EF514708                                    12.61%    passed     97.90%
+  42  B.DK.2001.CTL_033.EF514709                                    12.61%    passed     99.36%
+  43  B.DK.2001.CTL_035.EF514710                                    12.61%    passed     91.99%
+  44  B.DK.2001.CTL_041.EF514711                                    12.61%    passed     91.28%
+  45  B.DK.2001.CTL_043.EF514712                                    12.61%    passed     93.35%
+  46  B.ES.2005.X1890.EU786672                                      12.91%    passed     90.11%
+  47  B.ES.2006.X1958.EU786674                                      12.61%    passed     91.91%
+  48  B.ES.2006.X1959.EU786675                                      12.61%    passed     99.05%
+  49  B.ES.2006.X1998.EU786676                                      12.61%    passed     99.39%
+  50  B.ES.2006.X2102.EU786677                                      12.91%    passed     95.72%
+  51  B.ES.2007.X2149.EU786678                                      12.61%    passed     98.40%
+  52  B.ES.2007.X2210_3.EU786679                                    12.61%    passed     96.26%
+  53  B.ES.2007.X2231.EU786680                                      12.61%    passed     98.27%
+  54  B.CY.2005.CY018.FJ388890                                      12.61%    passed     96.85%
+  55  B.CY.2005.CY020.FJ388891                                      12.61%    passed     90.51%
+  56  B.CY.2005.CY028.FJ388895                                      12.61%    passed     93.94%
+  57  B.CY.2005.CY032.FJ388898                                      12.61%    passed     94.82%
+  58  B.CY.2005.CY037.FJ388899                                      12.91%    passed     99.43%
+  59  B.CY.2005.CY055.FJ388904                                      12.61%    passed     86.74%
+  60  B.CY.2005.CY056.FJ388905                                      12.61%    passed     99.15%
+  61  B.CY.2005.CY065.FJ388910                                      12.61%    passed     98.68%
+  62  B.CY.2005.CY067.FJ388911                                      12.61%    passed     98.48%
+  63  B.CY.2005.CY068.FJ388912                                      12.61%    passed     99.59%
+  64  B.CY.2005.CY072.FJ388914                                      12.61%    passed     98.95%
+  65  B.CY.2005.CY074.FJ388915                                      11.71%    passed     97.81%
+  66  B.CY.2005.CY075.FJ388916                                      12.61%    passed     98.45%
+  67  B.CY.2005.CY087.FJ388918                                      11.71%    passed     97.72%
+  68  B.CY.2005.CY088.FJ388919                                      12.61%    passed     97.63%
+  69  B.CY.2005.CY089.FJ388920                                      12.61%    passed     94.72%
+  70  B.CY.2005.CY093.FJ388923                                      12.61%    passed     91.82%
+  71  B.CY.2005.CY097.FJ388924                                      12.61%    passed     87.86%
+  72  B.CY.2005.CY110.FJ388927                                      12.61%    passed     95.15%
+  73  B.CY.2005.CY113.FJ388930                                      12.61%    passed     96.83%
+  74  B.CY.2005.CY120.FJ388931                                      12.61%    passed     99.90%
+  75  B.CY.2005.CY124.FJ388933                                      12.61%    passed     61.99%
+  76  B.CY.2005.CY130.FJ388934                                      12.61%    passed     95.91%
+  77  B.CY.2005.CY131.FJ388935                                      12.61%    passed     98.13%
+  78  B.CY.2005.CY132.FJ388936                                      12.61%    passed     99.58%
+  79  B.CY.2005.CY137.FJ388937                                      12.61%    passed     98.45%
+  80  B.CY.2005.CY141.FJ388939                                      12.61%    passed     99.58%
+  81  B.CY.2005.CY149.FJ388940                                      12.61%    passed     95.51%
+  82  B.CY.2005.CY150.FJ388941                                      12.61%    passed     93.40%
+  83  B.CY.2006.CY165.FJ388947                                      12.61%    passed     90.99%
+  84  B.CY.2006.CY168.FJ388949                                      12.61%    passed     96.12%
+  85  B.CY.2006.CY180.FJ388955                                      12.61%    passed     96.68%
+  86  B.CY.2005.CY030.FJ388956                                      12.61%    passed     96.32%
+  87  B.CY.2005.CY035.FJ388958                                      12.61%    passed     97.83%
+  88  B.CY.2005.CY036.FJ388959                                      12.61%    passed     99.80%
+  89  B.CY.2005.CY070.FJ388960                                      12.61%    passed     93.87%
+  90  B.CY.2005.CY082.FJ388962                                      12.61%    passed     99.93%
+  91  B.CY.2005.CY096.FJ388963                                      12.61%    passed     88.41%
+  92  B.CY.2005.CY100.FJ388964                                      12.61%    passed     99.15%
+  93  B.CY.2005.CY142.FJ388965                                      12.61%    passed     98.13%
+  94  B.CY.2005.CY122.FJ403482                                      12.61%    passed     99.85%
+  95  B.ES.2008.X2400-3.FJ670524                                    12.61%    passed     92.87%
+  96  B.ES.2008.X2425-2.FJ670525                                    12.01%    passed     97.68%
+  97  B.ES.2008.P2008.FJ670531                                      12.61%    passed     88.58%
+  98  B.DK.2007.PMVL_011.FJ694790                                   12.61%    passed     98.95%
+  99  B.ES.2008.P2021-3.FJ853620                                    12.61%    passed     98.39%
+ 100  B.ES.2008.X2510_2.FJ853622                                    12.61%    passed     99.28%
+ 101  B.ES.2008.ES_X2515_3.GQ372988                                 12.91%    passed     98.45%
+ 102  B.ES.2008.ES_X2556_3.GQ372990                                 12.61%    passed     92.67%
+ 103  B.FR.1988.PR1.GU014237                                        11.71%    passed     99.63%
+ 104  B.FR.1986.LTNP_86.GU014240                                    12.61%    passed     99.89%
+ 105  B.ES.2009.P2149_3.GU362881                                    12.61%    passed     97.50%
+ 106  B.ES.2008.X2555_2.GU362883                                    12.61%    passed     97.24%
+ 107  B.ES.2009.X2689_2.GU362885                                    12.61%    passed     93.35%
+ 108  B.ES.2008.X2574_2.GU362886                                    12.61%    passed     99.43%
+ 109  B.ES.1998.R28.GU453425                                        12.61%    passed     90.43%
+ 110  B.GB.2003.MM33d12p.HM586187                                   12.61%    passed     95.77%
+ 111  B.GB.2004.MM39d11p.HM586193                                   12.61%    passed     96.43%
+ 112  B.GB.2004.MM42d22_GN1.HM586198                                12.61%    passed     98.48%
+ 113  B.GB.2004.MM43d21_GN1.HM586206                                10.81%    passed     99.76%
+ 114  B.GB.2005.MM45d22_GN1.HM586210                                12.61%    passed     98.16%
+ 115  B.GB.2005.MM48d22_RB1.HM586474                                12.61%    passed     98.09%
+ 116  B.CY.2007.CY181.JF683736                                      12.61%    passed     99.59%
+ 117  B.CY.2007.CY184.JF683738                                      12.61%    passed     98.15%
+ 118  B.CY.2007.CY188.JF683741                                      12.61%    passed     98.68%
+ 119  B.CY.2007.CY189.JF683742                                      12.61%    passed     91.17%
+ 120  B.CY.2007.CY190.JF683743                                      12.61%    passed     72.48%
+ 121  B.CY.2007.CY194.JF683746                                      12.61%    passed     78.92%
+ 122  B.CY.2007.CY195.JF683747                                      12.61%    passed     99.78%
+ 123  B.CY.2007.CY197.JF683749                                      12.61%    passed     97.63%
+ 124  B.CY.2007.CY198.JF683750                                      12.61%    passed     96.66%
+ 125  B.CY.2007.CY199.JF683751                                      12.61%    passed     99.55%
+ 126  B.CY.2007.CY201.JF683753                                      12.61%    passed     98.88%
+ 127  B.CY.2007.CY202.JF683754                                      12.61%    passed     94.35%
+ 128  B.CY.2007.CY204.JF683756                                      12.61%    passed     97.69%
+ 129  B.CY.2007.CY214.JF683764                                      12.61%    passed     93.09%
+ 130  B.CY.2007.CY216.JF683765                                      12.61%    passed     99.85%
+ 131  B.CY.2008.CY220.JF683769                                      12.61%    passed     98.68%
+ 132  B.CY.2008.CY224.JF683773                                      12.61%    passed     98.87%
+ 133  B.CY.2008.CY226.JF683775                                      12.61%    passed     90.57%
+ 134  B.CY.2008.CY229.JF683778                                      12.61%    passed     99.58%
+ 135  B.CY.2008.CY232.JF683781                                      12.61%    passed     96.83%
+ 136  B.CY.2008.CY237.JF683784                                      12.61%    passed     99.61%
+ 137  B.CY.2008.CY238.JF683785                                      12.61%    passed     98.79%
+ 138  B.CY.2009.CY241.JF683787                                      11.71%    passed     99.70%
+ 139  B.CY.2009.CY242.JF683788                                      12.61%    passed     78.03%
+ 140  B.CY.2009.CY244.JF683790                                      12.61%    passed     99.58%
+ 141  B.CY.2009.CY246.JF683791                                      12.61%    passed     99.73%
+ 142  B.CY.2009.CY250.JF683793                                      13.51%    passed     93.98%
+ 143  B.CY.2009.CY251.JF683794                                      12.61%    passed     98.45%
+ 144  B.CY.2009.CY253.JF683796                                      12.61%    passed     98.27%
+ 145  B.CY.2009.CY254.JF683797                                      12.61%    passed     99.80%
+ 146  B.CY.2009.CY258.JF683801                                      12.61%    passed     67.05%
+ 147  B.CY.2009.CY262.JF683804                                      12.61%    passed     86.79%
+ 148  B.CY.2009.CY263.JF683805                                      12.61%    passed     74.90%
+ 149  B.CY.2009.CY266.JF683807                                      16.22%    passed     91.51%
+ 150  B.CY.2009.CY267.JF683808                                      12.61%    passed     96.27%
+ 151  B.CY.2009.CY268.JF683809                                      12.61%    passed     66.64%
+ 152  B.FR.2008.BN_1_A.JN125863                                     12.61%    passed     97.90%
+ 153  B.FR.2008.BN_2_B.JN125864                                     12.61%    passed     98.94%
+ 154  B.FR.2008.BN_3_C.JN125865                                     14.41%    passed     85.68%
+ 155  B.FR.2008.BN_4_D.JN125866                                     13.51%    passed     99.86%
+ 156  B.FR.2008.BN_5_E.JN125867                                     12.61%    passed     92.18%
+ 157  B.FR.2008.BN_6_F.JN125868                                     12.61%    passed     96.66%
+ 158  B.FR.2008.BN_8_H.JN125869                                     12.61%    passed     98.09%
+ 159  B.FR.2008.BN_12_B.JN125870                                    12.61%    passed     91.41%
+ 160  B.FR.2008.BN_13_C.JN125871                                    12.61%    passed     99.80%
+ 161  B.FR.2008.BN_14_D.JN125872                                    12.61%    passed     99.45%
+ 162  B.FR.2008.BN_16_E.JN125873                                    12.61%    passed     86.99%
+ 163  B.FR.2008.BN_18_G.JN125874                                    12.61%    passed    100.00%
+ 164  B.FR.2008.BN_19_H.JN125875                                    12.61%    passed     87.73%
+ 165  B.FR.2008.BN_22_B.JN125876                                    12.61%    passed     98.44%
+ 166  B.FR.2008.BN_21.JN125877                                      12.61%    passed     99.89%
+ 167  B.FR.2008.VprD_BN_70_B.JN125878                               12.61%    passed     99.87%
+ 168  B.FR.2008.BN_23_C.JN125879                                    15.32%    passed     90.02%
+ 169  B.FR.2008.BN_24_D.JN125880                                    12.61%    passed     99.15%
+ 170  B.FR.2008.BN_25_E.JN125881                                    12.61%    passed     98.03%
+ 171  B.FR.2008.BN_26_F.JN125882                                    12.61%    passed     99.90%
+ 172  B.FR.2008.BN_27_G.JN125883                                    12.61%    passed     94.35%
+ 173  B.FR.2008.BN_31_G.JN125884                                    12.61%    passed     87.30%
+ 174  B.FR.2008.BN_33_F.JN125885                                    12.61%    passed     98.83%
+ 175  B.FR.2008.BN_51_G.JN125886                                    13.51%    passed     90.88%
+ 176  B.FR.2008.BN_52.JN125887                                      12.61%    passed     97.36%
+ 177  B.FR.2008.BN_53_H.JN125888                                    12.61%    passed     99.75%
+ 178  B.FR.2008.BN_54.JN125889                                      12.61%    passed     77.18%
+ 179  B.FR.2008.BN_55.JN125890                                      13.51%    passed     87.32%
+ 180  B.FR.2008.BN_56.JN125891                                      12.61%    passed     74.54%
+ 181  B.FR.2008.BN_58_D.JN125892                                    14.41%    passed     92.92%
+ 182  B.FR.2008.BN_59_E.JN125893                                    12.61%    passed     98.88%
+ 183  B.FR.2008.BN_60_F05ab.JN125894                                12.61%    passed     99.15%
+ 184  B.FR.2008.BN_61_E.JN125895                                    12.61%    passed     99.06%
+ 185  B.FR.2008.BN_62_F.JN125896                                    12.61%    passed    100.00%
+ 186  B.FR.2008.BN_63_G.JN125897                                    12.61%    passed     89.68%
+ 187  B.FR.2008.BN_64_H.JN125898                                    12.61%    passed     98.00%
+ 188  B.FR.2008.BN_65_A.JN125899                                    12.61%    passed     98.88%
+ 189  B.FR.2008.BN_66_B.JN125900                                    13.51%    passed     97.40%
+ 190  B.FR.2008.BN_67_B.JN125901                                    12.61%    passed    100.00%
+ 191  B.FR.2008.BN_68_C.JN125902                                    12.61%    passed     99.58%
+ 192  B.FR.2008.10011074.JN125904                                   12.61%    passed     99.75%
+ 193  B.FR.2008.10020148.JN125905                                   12.61%    passed     99.75%
+ 194  B.FR.2008.10030585_C.JN125906                                 12.61%    passed     87.31%
+ 195  B.FR.2008.10030763_D.JN125907                                 12.61%    passed     94.30%
+ 196  B.FR.2008.10030925_B.JN125908                                 12.61%    passed     93.58%
+ 197  B.FR.2008.10031308_A.JN125909                                 12.61%    passed     99.93%
+ 198  B.FR.2008.60023_G.JN125910                                    12.61%    passed     95.53%
+ 199  B.FR.2008.61002_D.JN125911                                    12.61%    passed     95.88%
+ 200  B.FR.2008.63001_F.JN125912                                    12.61%    passed     97.10%
+ 201  B.FR.2008.9371377_C.JN125913                                  12.61%    passed     99.28%
+ 202  B.FR.2008.9401382_B.JN125914                                  12.61%    passed     98.29%
+ 203  B.FR.2008.9431221_A.JN125915                                  12.61%    passed     99.93%
+ 204  B.FR.2008.9450091_H.JN125916                                  12.61%    passed     82.12%
+ 205  B.FR.2008.9451337_G.JN125917                                  13.51%    passed     98.55%
+ 206  B.FR.2008.9461187_F.JN125918                                  12.61%    passed     94.26%
+ 207  B.FR.2008.9481472_E.JN125919                                  12.61%    passed     99.78%
+ 208  B.FR.2008.9491372_D.JN125920                                  12.61%    passed     99.52%
+ 209  B.FR.2008.9520573_B.JN125922                                  12.61%    passed     95.51%
+ 210  B.FR.2008.9520774_A.JN125923                                  12.61%    passed     89.67%
+ 211  B.FR.2008.9530443_H.JN125924                                  12.61%    passed     91.66%
+ 212  B.FR.2008.9530472_G.JN125925                                  12.61%    passed     86.75%
+ 213  B.FR.2008.BM_2.JN125926                                       12.61%    passed     70.47%
+ 214  B.FR.2008.BM_3.JN125927                                       12.61%    passed     94.59%
+ 215  B.FR.2008.BM_4.JN125928                                       12.61%    passed     91.62%
+ 216  B.FR.2008.BM_5.JN125929                                       12.61%    passed     98.70%
+ 217  B.FR.2008.BM_6.JN125930                                       12.61%    passed     99.85%
+ 218  B.FR.2008.BM_7.JN125931                                       12.61%    passed     95.37%
+ 219  B.FR.2008.BM_13.JN125932                                      12.61%    passed     99.10%
+ 220  B.FR.2008.BM_14.JN125933                                      10.81%    passed     89.39%
+ 221  B.FR.2008.BM_15.JN125934                                      12.61%    passed     99.37%
+ 222  B.FR.2008.BM_18.JN125935                                      12.61%    passed     87.60%
+ 223  B.FR.2008.BM_19.JN125936                                      12.61%    passed     98.68%
+ 224  B.FR.2008.BM_22.JN125937                                      12.61%    passed     98.42%
+ 225  B.FR.2008.BM_24.JN125938                                      12.61%    passed     99.94%
+ 226  B.FR.2008.BM_25.JN125939                                      12.61%    passed     99.43%
+ 227  B.FR.2008.BM_26.JN125940                                      12.61%    passed     88.58%
+ 228  B.FR.2008.BM_27.JN125941                                      12.61%    passed     93.81%
+ 229  B.FR.2008.BM_30.JN125942                                      12.61%    passed     97.09%
+ 230  B.FR.2008.BM_32.JN125943                                      12.61%    passed     99.66%
+ 231  B.FR.2008.BM_36.JN125944                                      12.61%    passed     69.85%
+ 232  B.FR.2008.BM_37.JN125945                                      12.61%    passed     98.40%
+ 233  B.FR.2008.BM_39.JN125946                                      12.61%    passed     99.89%
+ 234  B.FR.2008.BM_40.JN125947                                      12.61%    passed     96.11%
+ 235  B.FR.2008.BM_42.JN125948                                      12.61%    passed     97.40%
+ 236  B.FR.2008.BM_44.JN125949                                      12.61%    passed     99.75%
+ 237  B.FR.2008.BM_69.JN125951                                      12.61%    passed     99.59%
+ 238  B.FR.2008.BM_47.JN125952                                      12.61%    passed     85.67%
+ 239  B.FR.2008.BM_49.JN125953                                      12.61%    passed     89.95%
+ 240  B.FR.2008.BM_50.JN125954                                      12.61%    passed     91.82%
+ 241  B.FR.2008.BM_54.JN125956                                      12.61%    passed     95.91%
+ 242  B.FR.2008.BM_55.JN125957                                      12.61%    passed     99.36%
+ 243  B.FR.2008.BM_61.JN125958                                      12.61%    passed     87.86%
+ 244  B.FR.2008.BM_62.JN125959                                      12.61%    passed     99.59%
+ 245  B.FR.2008.BM_63.JN125960                                      12.61%    passed     98.22%
+ 246  B.FR.2008.BM_64.JN125961                                      12.61%    passed     98.35%
+ 247  B.FR.2008.BM_67.JN125962                                      12.61%    passed     66.74%
+ 248  B.FR.2008.BM_68.JN125963                                      12.61%    passed     99.05%
+ 249  B.FR.2008.BM_90.JN125964                                      12.61%    passed     96.63%
+ 250  B.FR.2008.BM_70.JN125965                                      12.61%    passed     99.80%
+ 251  B.FR.2008.BM_74.JN125967                                      12.61%    passed     99.37%
+ 252  B.FR.2008.BM_75.JN125968                                      12.61%    passed     97.32%
+ 253  B.FR.2008.BM_82.JN125969                                      12.61%    passed     98.39%
+ 254  B.FR.2008.BM_83.JN125970                                      12.61%    passed     84.81%
+ 255  B.FR.2008.BM_84.JN125971                                      12.61%    passed     95.38%
+ 256  B.FR.2008.BM_85.JN125972                                      12.61%    passed     99.80%
+ 257  B.FR.2008.BM_86.JN125973                                      12.61%    passed     97.69%
+ 258  B.FR.2008.BM_87.JN125974                                      12.61%    passed     88.27%
+ 259  B.FR.2008.BM_88.JN125975                                      12.61%    passed     93.58%
+ 260  B.FR.2008.BM_89.JN125976                                      12.61%    passed     91.32%
+ 261  B.FR.2008.BM_104.JN125977                                     12.61%    passed     88.27%
+ 262  B.FR.2008.BM_91.JN125978                                      12.61%    passed     96.18%
+ 263  B.FR.2008.BM_92.JN125979                                      13.51%    passed     58.70%
+ 264  B.FR.2008.BM_94.JN125980                                      12.61%    passed     94.72%
+ 265  B.FR.2008.BM_95.JN125981                                      12.61%    passed     98.87%
+ 266  B.FR.2008.BM_96.JN125982                                      12.61%    passed     98.70%
+ 267  B.FR.2008.BM_97.JN125983                                      12.61%    passed     98.13%
+ 268  B.FR.2008.BM_98.JN125984                                      12.61%    passed     95.10%
+ 269  B.FR.2008.BM_99.JN125985                                      12.61%    passed     99.59%
+ 270  B.FR.2008.BM_100.JN125986                                     12.61%    passed     99.80%
+ 271  B.FR.2008.BM_101.JN125987                                     13.51%    passed     95.51%
+ 272  B.FR.2008.BM_102.JN125988                                     12.61%    passed     94.52%
+ 273  B.FR.2008.BM_103.JN125989                                     12.61%    passed     99.80%
+ 274  B.FR.2008.BM_119.JN125990                                     12.61%    passed     93.40%
+ 275  B.FR.2008.BM_105.JN125991                                     12.61%    passed     94.96%
+ 276  B.FR.2008.BM_106.JN125992                                     14.41%    passed     91.37%
+ 277  B.FR.2008.BM_107.JN125993                                     14.41%    passed     78.33%
+ 278  B.FR.2008.BM_108.JN125994                                     12.61%    passed     95.36%
+ 279  B.FR.2008.BM_109.JN125995                                     12.61%    passed     97.71%
+ 280  B.FR.2008.BM_110.JN125996                                     12.61%    passed     98.35%
+ 281  B.FR.2008.BM_111.JN125997                                     12.61%    passed     94.86%
+ 282  B.FR.2008.BM_114.JN125998                                     12.61%    passed     99.06%
+ 283  B.FR.2008.BM_115.JN125999                                     12.61%    passed     99.55%
+ 284  B.FR.2008.BM_116.JN126000                                     12.61%    passed     98.83%
+ 285  B.FR.2008.BM_117.JN126001                                     12.61%    passed     74.44%
+ 286  B.FR.2008.BM_118.JN126002                                     12.61%    passed     96.36%
+ 287  B.FR.2008.BM_121.JN126003                                     12.61%    passed     91.15%
+ 288  B.FR.2008.CHO.JN126004                                        12.61%    passed     86.77%
+ 289  B.FR.2008.MON.JN126005                                        12.61%    passed     94.03%
+ 290  B.FR.2008.CAR.JN126006                                        12.61%    passed     98.51%
+ 291  B.FR.2008.FAJ.JN126008                                        12.61%    passed     86.27%
+ 292  B.FR.2008.GAR.JN126009                                        12.61%    passed     98.53%
+ 293  B.FR.2008.MAR.JN126010                                        12.61%    passed     99.45%
+ 294  B.FR.2008.POM.JN126011                                        12.61%    passed     67.29%
+ 295  B.FR.2008.FRA.JN126012                                        14.41%    passed     94.61%
+ 296  B.FR.2008.BEN.JN126013                                        12.61%    passed     98.88%
+ 297  B.FR.2008.CHA.JN126014                                        12.61%    passed     94.81%
+ 298  B.FR.2008.BENB.JN126015                                       12.61%    passed     89.64%
+ 299  B.FR.2008.GHA.JN126017                                        12.61%    passed     94.59%
+ 300  B.FR.2008.KEM.JN126019                                        12.61%    passed     86.06%
+ 301  B.FR.2008.LEG.JN126020                                        12.61%    passed     91.32%
+ 302  B.FR.2008.MARB.JN126021                                       12.61%    passed     91.82%
+ 303  B.FR.2008.RAD.JN126022                                        13.51%    passed     99.29%
+ 304  B.PL.2008.BP00074_LH01.JN687691                               12.61%    passed     97.69%
+ 305  B.CH.2002.HIV_CH_BID-V3511_2002.JQ403019                      12.61%    passed     89.64%
+ 306  B.CH.2002.HIV_CH_BID-V3527_2002.JQ403021                      12.61%    passed     96.11%
+ 307  B.CH.2000.HIV_CH_BID-V3529_2000.JQ403022                      12.61%    passed     93.46%
+ 308  B.CH.2000.HIV_CH_BID-V3530_2000.JQ403023                      12.61%    passed     99.45%
+ 309  B.CH.2001.HIV_CH_BID-V3531_2001.JQ403024                      13.51%    passed     99.39%
+ 310  B.CH.2001.HIV_CH_BID-V3533_2001.JQ403025                      13.51%    passed     95.95%
+ 311  B.CH.2001.HIV_CH_BID-V3534_2001.JQ403026                      12.61%    passed     93.34%
+ 312  B.CH.2002.HIV_CH_BID-V3539_2002.JQ403029                      12.61%    passed     88.09%
+ 313  B.DE.2004.HIV_DE_BID-V4131_2004.JQ403037                      12.61%    passed     99.78%
+ 314  B.DE.2004.HIV_DE_BID-V4132_2004.JQ403038                      12.61%    passed     96.32%
+ 315  B.DE.2004.HIV_DE_BID-V4134_2004.JQ403039                      12.61%    passed     97.24%
+ 316  B.CH.2004.HIV_CH_BID-V4408_2004.JQ403042                      12.61%    passed     97.68%
+ 317  B.CH.2003.HIV_CH_BID-V4421_2003.JQ403043                      12.61%    passed     90.92%
+ 318  B.CH.2002.HIV_CH_BID-V4424_2002.JQ403044                      12.61%    passed     99.66%
+ 319  B.CH.2003.HIV_CH_BID-V4470_2003.JQ403045                      12.61%    passed     96.58%
+ 320  B.CH.2003.HIV_CH_BID-V4474_2003.JQ403046                      12.61%    passed     98.83%
+ 321  B.CH.2002.HIV_CH_BID-V4478_2002.JQ403047                      12.61%    passed     98.89%
+ 322  B.DE.2003.HIV_DE_BID-V3307_2003.JQ403048                      12.61%    passed     95.10%
+ 323  B.DE.2005.HIV_DE_BID-V4135_2005.JQ403049                      12.61%    passed     96.66%
+ 324  B.DE.2004.9213_V4136_d3.JQ403050                              12.61%    passed     89.04%
+ 325  B.FR.2005.DEMB05FR001.JX140652                                12.61%    passed     78.49%
+ 326  B.FR.2008.DEMB08FR002.JX140654                                12.61%    passed     98.51%
+ 327  B.ES.2009.DEMB09BO001.JX140656                                12.61%    passed     99.32%
+ 328  B.ES.2010.DEMB10VE001.JX140659                                12.61%    passed     95.17%
+ 329  B.ES.2011.P2418_2.KC112998                                    13.51%    passed     74.58%
+ 330  B.ES.2010.P2593_2.KC113004                                    13.51%    passed     98.02%
+ 331  B.ES.2010.P2606_2.KC113005                                    12.61%    passed     99.80%
+ 332  B.CH.2000.M1_0007251_NFLG95.KC797171                          12.61%    passed     96.37%
+ 333  B.CH.2008.M2_0801071_NFLG2.KC797215                           12.61%    passed     95.74%
+ 334  B.BE.2001.DC-TRN_A-3_14-Nov-2001.KF301724                     31.53%    passed     98.62%
+ 335  B.NL.1997.DC-TRN_B-3_19-Mar-1997.KF301734                     31.53%    passed     95.27%
+ 336  B.NL.2000.DC-TRN_C-3_21-Nov-2000.KF301737                     32.43%    passed     97.65%
+ 337  B.NL.1997.DC-TRN_D-3_13-Jan-1997.KF301741                     32.43%    passed     77.76%
+ 338  B.NL.1996.DC-TRN_E-3_30-Jul-1996.KF301745                     32.13%    passed     99.13%
+ 339  B.NL.2001.DC-TRN_F-3_23-Oct-2001.KF301752                     31.83%    passed     99.18%
+ 340  B.NL.1998.DC-TRN_G-3_14-Jan-1998.KF301759                     31.53%    passed     95.67%
+ 341  B.NL.2000.DC-TRN_H-3_03-Feb-2000.KF301763                     31.83%    passed     97.49%
+ 342  B.BE.1995.DC-TRN_I-3_05-Oct-1995.KF301767                     31.53%    passed     93.19%
+ 343  B.BE.2007.DC-TRN_J-3_21-Aug-2007.KF301770                     33.03%    passed     78.21%
+ 344  B.BE.2002.DC-TRN_K-3_04-Feb-2002.KF301774                     31.53%    passed     95.16%
+ 345  B.BE.2001.DC-TRN_L-3_16-May-2001.KF301780                     31.53%    passed     98.70%
+ 346  B.BE.2007.DC-TRN_M-3_11-Oct-2007.KF301784                     31.53%    passed     98.04%
+ 347  B.NL.1998.DC-TRN_N-3_19-Sep-1998.KF301786                     31.53%    passed     92.30%
+ 348  B.NL.2004.DC-TRN_O-3_11-May-2004.KF301790                     31.53%    passed     95.20%
+ 349  B.NL.2008.DC-TRN_P-3_07-Apr-2008.KF301793                     32.13%    passed     87.86%
+ 350  B.NL.2004.DC-TRN_Q-3_15-Apr-2004.KF301796                     31.53%    passed     95.28%
+ 351  B.FR.2009.DEMB09FR001.KF716494                                13.51%    passed     87.58%
+ 352  B.FR.2009.DEMB09FR002.KF716495                                13.51%    passed     92.52%
+ 353  B.FR.2011.DEMB11FR001.KF716496                                12.61%    passed     98.94%
+ 354  B.GB.1994.NIBSC-1.KJ019215                                    12.61%    passed     96.31%
+ 355  B.PT.2014.76_C.KM502968                                       12.61%    passed     69.11%
+ 356  B.ES.2013.DEMB13ES010.KP109518                                12.61%    passed     99.94%
+ 357  B.SE.2009.SE600001.KP411822                                   12.61%    passed     92.87%
+ 358  B.SE.2010.SE600012.KP411823                                   14.41%    passed     98.26%
+ 359  B.SE.2011.SE600023.KP411824                                   13.51%    passed     99.07%
+ 360  B.SE.2011.SE600034.KP411825                                   12.61%    passed     93.44%
+ 361  B.SE.2010.SE600046.KP411827                                   12.61%    passed     98.68%
+ 362  B.SE.2012.SE600057.KP411828                                   12.61%    passed     98.42%
+ 363  B.SE.2005.SE600063.KP411829                                   11.41%    passed     85.86%
+ 364  B.DE.2010.571373_SGA13.KR868834                               12.61%    passed     97.09%
+ 365  B.DE.2008.654207_SGA1.KR868869                                12.61%    passed     99.80%
+ 366  B.DE.2008.882283_SGA115.KR868913                              12.61%    passed     93.18%
+ 367  B.DE.2009.136172.KT124749                                     12.61%    passed     98.22%
+ 368  B.DE.2008.147984.KT124751                                     12.61%    passed    100.00%
+ 369  B.DE.2008.154162.KT124752                                     12.61%    passed     93.43%
+ 370  B.DE.2009.159793.KT124753                                     12.61%    passed     98.79%
+ 371  B.DE.2009.172508.KT124754                                     12.61%    passed     97.36%
+ 372  B.DE.2008.176952.KT124755                                     12.61%    passed     66.13%
+ 373  B.DE.2008.255524.KT124757                                     12.61%    passed     94.62%
+ 374  B.DE.2010.290307.KT124760                                     12.61%    passed     90.51%
+ 375  B.DE.2008.296004.KT124762                                     12.61%    passed     91.91%
+ 376  B.DE.2010.320435.KT124763                                     12.61%    passed     99.58%
+ 377  B.DE.2012.328893.KT124765                                     13.51%    passed     88.75%
+ 378  B.DE.2013.366396.KT124767                                     12.61%    passed     97.77%
+ 379  B.DE.2010.464704.KT124772                                     12.61%    passed     97.63%
+ 380  B.DE.2010.556743.KT124779                                     12.61%    passed     95.99%
+ 381  B.DE.2009.585067.KT124782                                     12.61%    passed     86.77%
+ 382  B.DE.2010.587196.KT124783                                     11.71%    passed     99.88%
+ 383  B.DE.2012.635056.KT124787                                     12.61%    passed     95.99%
+ 384  B.DE.2008.637829.KT124788                                     12.61%    passed     96.23%
+ 385  B.DE.2008.822582.KT124794                                     12.61%    passed     98.40%
+ 386  B.DE.2010.863847.KT124797                                     12.61%    passed     94.30%
+ 387  B.DE.2011.891676.KT124802                                     12.61%    passed    100.00%
+ 388  B.DE.2007.906153.KT124803                                     12.61%    passed     99.15%
+ 389  B.DE.2004.912218.KT124804                                     12.61%    passed     89.04%
+ 390  B.DE.2009.923040.KT124805                                     12.61%    passed     96.31%
+ 391  B.DE.2013.947915.KT124808                                     12.61%    passed     96.37%
+ 392  B.DE.2008.954229.KT124810                                     12.61%    passed     98.01%
+ 393  B.DE.2012.956306.KT124811                                     12.61%    passed     93.58%
+ 394  B.DE.2004.963987.KT124812                                     13.51%    passed     85.98%
+ 395  B.ES.2013.P6.KT200348                                         12.61%    passed     96.03%
+ 396  B.ES.2008.R11.KT200349                                        12.61%    passed     91.75%
+ 397  B.ES.2006.R14.KT200350                                        12.61%    passed     98.83%
+ 398  B.ES.2005.R15.KT200351                                        12.61%    passed     93.86%
+ 399  B.ES.2010.R3.KT200352                                         12.61%    passed     97.09%
+ 400  B.ES.2010.R4.KT200353                                         12.61%    passed     83.89%
+ 401  B.ES.2008.R5.KT200354                                         12.61%    passed     92.94%
+ 402  B.ES.2010.R6.KT200355                                         12.61%    passed     97.69%
+ 403  B.ES.2010.R7.KT200356                                         10.81%    passed     99.56%
+ 404  B.ES.2010.R8.KT200357                                         12.61%    passed     68.77%
+ 405  B.ES.2008.R9.KT200358                                         12.61%    passed     99.75%
+ 406  B.ES.2014.ARP1195.KT276255                                    12.91%    passed     89.81%
+ 407  B.ES.2014.ARP1196.KT276256                                    11.71%    passed     91.77%
+ 408  B.ES.2014.ARP1202.KT276262                                    11.71%    passed     95.20%
+ 409  B.ES.2014.ARP1203.KT276263                                    11.71%    passed     95.29%
+ 410  B.ES.2014.ARP1204.KT276264                                    15.62%    passed     92.14%
+ 411  B.ES.2014.ARP1206.KT276266                                    11.71%    passed     78.14%
+ 412  B.ES.2014.ARP1207.KT276267                                    11.71%    passed     89.59%
+ 413  B.ES.2014.ARP1208.KT276268                                     9.01%    passed     97.26%
+ 414  B.FR.2003.LA06ToXa.KU168261                                   12.61%    passed     97.57%
+ 415  B.DE.2010.iso4-w10.KU612900                                   12.61%    passed     97.34%
+ 416  B.DE.2010.iso5-h10.KU612901                                   12.61%    passed     86.90%
+ 417  B.ES.2014.EUR-0043.KU685583                                   11.71%    passed     99.93%
+ 418  B.ES.2014.EUR-0044.KU685584                                   11.71%    passed     98.32%
+ 419  B.ES.2014.EUR-0045.KU685585                                   11.71%    passed     99.09%
+ 420  B.ES.2014.EUR-0046.KU685586                                   12.61%    passed     77.45%
+ 421  B.ES.2014.EUR-0050.KU685588                                   11.71%    passed     77.12%
+ 422  B.ES.2014.EUR-0052.KU685589                                   11.71%    passed     96.09%
+ 423  B.ES.2014.EUR-0053.KU685590                                   11.71%    passed     98.04%
+ 424  B.ES.2014.EUR-0031.KU685591                                   12.91%    passed     94.53%
+ 425  B.ES.2011.SPX11.KU901586                                      12.61%    passed     96.26%
+ 426  B.ES.2011.SPX9.KU901587                                       12.61%    passed     99.52%
+ 427  B.ES.2014.100_112.KY465967                                    12.61%    passed     94.86%
+ 428  B.ES.2014.100_114.KY465968                                    11.71%    passed     93.49%
+ 429  B.ES.2015.100_116.KY465969                                    12.61%    passed     96.43%
+ 430  B.ES.2015.100_121.KY514083                                    11.71%    passed     88.86%
+ 431  B.GB.2008.DEMB08UK003.KY658697                                12.61%    passed     71.01%
+ 432  B.ES.2015.100597.KY989949                                     12.61%    passed     89.19%
+ 433  B.ES.2015.100594.KY989951                                     10.81%    passed     98.39%
+ 434  B.ES.2015.100596.KY989953                                     13.51%    passed     98.60%
+ 435  B.ES.2015.100598.KY989954                                     12.61%    passed     97.32%
+ 436  B.ES.2015.100600.KY989956                                     13.51%    passed     94.39%
+ 437  B.FR.1983.BH102_BH10.M15654                                   12.31%    passed     97.37%
+ 438  B.GB.2013.13592_1_11.3.MF109353                               12.61%    passed     97.57%
+ 439  B.GB.2013.13592_1_17.3.MF109359                               12.61%    passed     80.32%
+ 440  B.GB.2013.13592_1_20.3.MF109363                               12.61%    passed     95.45%
+ 441  B.GB.2013.13592_1_21.3.MF109364                               12.61%    passed     91.87%
+ 442  B.GB.2013.13592_1_26.3.MF109369                               12.61%    passed     88.98%
+ 443  B.GB.2013.13592_1_29.3.MF109372                               12.61%    passed     90.15%
+ 444  B.GB.2013.13592_1_33.3.MF109376                               12.61%    passed     99.94%
+ 445  B.GB.2013.13592_1_41.3.MF109385                               12.61%    passed     99.87%
+ 446  B.GB.2013.13592_1_42.3.MF109386                               12.61%    passed     98.87%
+ 447  B.GB.2013.13592_1_4.3.MF109388                                12.61%    passed     98.44%
+ 448  B.GB.2014.13612_1_11.3.MF109395                               12.61%    passed     95.62%
+ 449  B.GB.2014.13612_1_12.4.MF109396                               12.61%    passed     89.09%
+ 450  B.GB.2014.13612_1_17.3.MF109400                               14.41%    passed     78.85%
+ 451  B.GB.2014.13612_1_25.3.MF109408                               12.61%    passed    100.00%
+ 452  B.GB.2014.13612_1_28.4.MF109411                               14.41%    passed     57.12%
+ 453  B.GB.2014.13612_1_34.3.MF109418                               12.61%    passed     97.90%
+ 454  B.GB.2014.13612_1_38.3.MF109422                               12.61%    passed     96.84%
+ 455  B.GB.2014.13612_1_41.3.MF109426                               12.61%    passed     94.67%
+ 456  B.GB.2014.13612_1_43.3.MF109428                               12.61%    passed     93.44%
+ 457  B.GB.2014.13659_1_52.3.MF109440                               12.61%    passed     94.05%
+ 458  B.GB.2014.13659_1_56.3.MF109444                               12.61%    passed     98.42%
+ 459  B.GB.2014.13659_1_58.3.MF109446                               12.61%    passed     96.18%
+ 460  B.GB.2014.13659_1_59.3.MF109447                               12.61%    passed     97.32%
+ 461  B.GB.2014.13659_1_61.3.MF109449                               12.61%    passed     97.21%
+ 462  B.GB.2014.13659_1_62.3.MF109450                               12.61%    passed     97.67%
+ 463  B.GB.2014.13659_1_64.3.MF109452                               13.51%    passed     64.63%
+ 464  B.GB.2014.13659_1_65.3.MF109453                               14.41%    passed     99.89%
+ 465  B.GB.2013.13659_1_66.3.MF109454                               12.61%    passed     91.61%
+ 466  B.GB.2014.13659_1_67.3.MF109455                               12.61%    passed     99.78%
+ 467  B.GB.2014.13659_1_69.3.MF109456                               12.61%    passed     77.59%
+ 468  B.GB.2014.13659_1_75.3.MF109461                               14.41%    passed     97.41%
+ 469  B.GB.2014.13659_1_81.3.MF109465                               12.61%    passed     99.36%
+ 470  B.GB.2013.13774_1_47.3.MF109472                               12.61%    passed     97.63%
+ 471  B.GB.2013.13774_1_48.4.MF109473                               12.61%    passed     90.15%
+ 472  B.GB.2013.13774_1_50.3.MF109475                               12.61%    passed     91.47%
+ 473  B.GB.2013.13774_1_53.3.MF109478                               12.61%    passed     96.45%
+ 474  B.GB.2013.13774_1_54.3.MF109479                               13.51%    passed     96.74%
+ 475  B.GB.2013.13774_1_55.3.MF109480                               12.61%    passed     98.42%
+ 476  B.GB.2013.13774_1_63.3.MF109487                               12.61%    passed     99.66%
+ 477  B.GB.2013.13774_1_71.3.MF109494                               12.61%    passed     98.87%
+ 478  B.GB.2013.13774_1_72.3.MF109495                               12.61%    passed     99.80%
+ 479  B.GB.2013.13774_1_77.4.MF109499                               12.61%    passed     87.06%
+ 480  B.GB.2013.13774_1_79.3.MF109501                               12.61%    passed     99.45%
+ 481  B.GB.2013.13774_1_84.3.MF109506                               12.61%    passed     99.58%
+ 482  B.GB.2013.13774_1_87.3.MF109509                               14.41%    passed     96.70%
+ 483  B.GB.2014.14535_1_26.3.MF109523                               12.61%    passed     99.93%
+ 484  B.GB.2014.14535_1_27.3.MF109524                               12.61%    passed     97.32%
+ 485  B.GB.2014.14535_1_28.4.MF109525                               12.61%    passed     88.98%
+ 486  B.GB.2014.14535_1_5.3.MF109533                                12.61%    passed     99.80%
+ 487  B.GB.2014.14535_1_7.3.MF109534                                12.61%    passed     88.68%
+ 488  B.GB.2014.14535_1_9.3.MF109536                                12.61%    passed     98.07%
+ 489  B.GB.2014.14592_1_44.3.MF109540                               12.61%    passed     96.78%
+ 490  B.GB.2014.14592_1_47.3.MF109543                               12.61%    passed     93.46%
+ 491  B.GB.2014.14592_1_52.4.MF109546                               12.61%    passed     78.68%
+ 492  B.GB.2014.14592_1_57.3.MF109551                               13.51%    passed     99.81%
+ 493  B.GB.2014.14592_1_58.3.MF109552                               12.61%    passed     97.57%
+ 494  B.GB.2014.14592_1_64.3.MF109558                               12.61%    passed     97.99%
+ 495  B.GB.2014.14592_1_67.3.MF109561                               12.61%    passed     98.54%
+ 496  B.GB.2014.14592_1_72.3.MF109566                               12.61%    passed     98.81%
+ 497  B.GB.2014.14667_1_16.3.MF109578                               12.61%    passed     99.80%
+ 498  B.GB.2014.14667_1_2.4.MF109590                                12.61%    passed     97.72%
+ 499  B.GB.2014.14667_1_36.3.MF109596                               12.61%    passed     84.52%
+ 500  B.GB.2014.14667_1_37.3.MF109597                               14.41%    passed     97.41%
+ 501  B.GB.2014.14727_1_40.3.MF109605                               12.61%    passed     89.68%
+ 502  B.GB.2014.14727_1_44.3.MF109608                               12.61%    passed     85.02%
+ 503  B.GB.2014.14727_1_53.3.MF109616                               12.61%    passed     99.52%
+ 504  B.GB.2014.14727_1_59.4.MF109620                               12.61%    passed     91.82%
+ 505  B.GB.2014.14727_1_63.3.MF109624                               12.61%    passed     99.58%
+ 506  B.GB.2014.14727_1_66.3.MF109627                               12.61%    passed     63.23%
+ 507  B.GB.2014.14727_1_69.3.MF109630                               12.61%    passed     95.07%
+ 508  B.GB.2014.14727_1_75.3.MF109636                               12.61%    passed     63.23%
+ 509  B.GB.2013.15171_1_25.4.MF109656                               12.61%    passed     99.87%
+ 510  B.GB.2013.15171_1_31.3.MF109663                               12.61%    passed     99.58%
+ 511  B.GB.2013.15171_1_32.3.MF109664                               13.51%    passed     99.24%
+ 512  B.GB.2013.15171_1_35.4.MF109667                               12.61%    passed     99.66%
+ 513  B.GB.2013.15171_1_42.3.MF109675                               12.61%    passed     96.44%
+ 514  B.GB.2013.15171_1_7.5.MF109680                                12.61%    passed     99.39%
+ 515  B.GB.2013.15228_1_45.4.MF109683                               12.61%    passed     86.05%
+ 516  B.GB.2013.15228_1_67.4.MF109705                               12.61%    passed     98.94%
+ 517  B.ES.2010.X2899_2s_nt0759_9478.MF157735                       11.71%    passed     98.35%
+ 518  B.ES.2009.X2730_2_nt0544_9494.MF157736                        12.91%    passed     90.11%
+ 519  B.SE.2003.003SE.MF373125                                      13.51%    passed     84.00%
+ 520  B.SE.2003.005SE.MF373127                                      12.61%    passed     96.66%
+ 521  B.SE.2005.007SE.MF373129                                      14.41%    passed     92.82%
+ 522  B.SE.2005.008SE.MF373130                                      11.71%    passed     99.89%
+ 523  B.SE.2007.023SE.MF373140                                      13.51%    passed     98.39%
+ 524  B.SE.2008.028SE.MF373142                                      12.61%    passed     71.90%
+ 525  B.SE.2009.030SE.MF373144                                      12.61%    passed     92.87%
+ 526  B.SE.2010.038US.MF373149                                      12.61%    passed     98.42%
+ 527  B.SE.2010.040CA.MF373151                                      12.61%    passed    100.00%
+ 528  B.SE.2011.058SE.MF373161                                      12.61%    passed     85.04%
+ 529  B.SE.2011.059SE.MF373162                                      12.61%    passed     97.68%
+ 530  B.SE.2012.071EG.MF373174                                      12.61%    passed     95.45%
+ 531  B.SE.2013.083ET.MF373185                                      13.51%    passed     98.83%
+ 532  B.SE.2013.084TH.MF373186                                      12.61%    passed     85.07%
+ 533  B.SE.2013.089SE.MF373191                                      14.41%    passed     94.55%
+ 534  B.SE.2014.099US.MF373201                                      11.71%    passed     91.84%
+ 535  B.SE.2015.101SE.MF373203                                      12.61%    passed     96.43%
+ 536  B.SE.2015.102SE.MF373204                                      12.61%    passed     98.01%
+ 537  B.BG.2009.V_09_013.MH746254                                   12.61%    passed     90.28%
+ 538  B.BG.2008.V_08_001.MH746261                                   12.61%    passed     98.16%
+ 539  B.BG.2008.S_08_001.MH746264                                   12.61%    passed     99.75%
+ 540  B.BG.2008.P_08_004.MH746265                                   12.61%    passed     92.81%
+ 541  B.BG.2008.P_08_001.MH746266                                   12.61%    passed     95.71%
+ 542  B.DE.2017.Strain0526.MK086129                                 12.61%    passed     99.78%
+ 543  B.DE.2016.9249_W0_10E8_S36.MK115595                           12.61%    passed     98.15%
+ 544  B.DE.2016.9253_W0_10C20_S49.MK115871                          12.61%    passed     94.35%
+ 545  B.DE.2016.9254_W0_12G11_S39.MK115946                          12.61%    passed     97.80%
+ 546  B.DE.2016.9255_W0_10D11_S65.MK116093                          12.61%    passed     94.35%
+ 547  B.ES.2017.LTNP_3_127GC.MN055643                               12.61%    passed     90.94%
+ 548  B.BE.2017.02006_cen.MN449474                                  12.61%    passed     96.32%
+ 549  B.BE.2013.AB.MN485972                                         13.21%    passed     94.73%
+ 550  B.BE.2013.AC.MN485973                                         15.32%    passed     72.70%
+ 551  B.BE.2014.AD.MN485974                                         12.01%    passed     89.88%
+ 552  B.BE.2014.AH.MN485978                                         15.02%    passed     96.27%
+ 553  B.BE.2014.AI.MN485979                                         12.61%    passed     96.83%
+ 554  B.BE.2014.AJ.MN485980                                         13.81%    passed     98.99%
+ 555  B.BE.2015.AK.MN485981                                         12.61%    passed     99.06%
+ 556  B.BE.2015.AO.MN485985                                         14.41%    passed     79.81%
+ 557  B.BE.2015.AR.MN485988                                         12.91%    passed     82.37%
+ 558  B.BE.2016.AT.MN485990                                         11.71%    passed     82.02%
+ 559  B.BE.2016.AU.MN485991                                         12.91%    passed     90.01%
+ 560  B.BE.2016.AW.MN485993                                         13.51%    passed     97.39%
+ 561  B.BE.2016.AX.MN485994                                         12.61%    passed     99.80%
+ 562  B.BE.2016.AY.MN485995                                         13.51%    passed     97.80%
+ 563  B.BE.2016.AZ.MN485996                                         13.21%    passed     99.05%
+ 564  B.BE.2016.BA.MN485997                                         13.51%    passed     92.71%
+ 565  B.BE.2016.BB.MN485998                                         12.61%    passed     86.75%
+ 566  B.BE.2016.BD.MN486000                                         12.61%    passed    100.00%
+ 567  B.BE.2016.BF.MN486001                                         11.71%    passed     96.96%
+ 568  B.BE.2016.BE.MN486002                                         13.51%    passed     98.16%
+ 569  B.BE.2016.BG.MN486003                                         12.91%    passed     85.05%
+ 570  B.BE.2016.BI.MN486005                                         12.91%    passed     85.61%
+ 571  B.BE.2016.BL.MN486008                                         14.71%    passed     81.67%
+ 572  B.BE.2016.BM.MN486009                                         12.61%    passed     98.95%
+ 573  B.BE.2016.BN.MN486010                                         13.21%    passed     99.05%
+ 574  B.BE.2016.BP.MN486012                                         13.21%    passed     89.75%
+ 575  B.BE.2016.BQ.MN486013                                         12.61%    passed     74.66%
+ 576  B.BE.2016.BR.MN486014                                         12.61%    passed     99.35%
+ 577  B.BE.2017.BS.MN486015                                         15.62%    passed     99.63%
+ 578  B.BE.2017.BV.MN486018                                         13.21%    passed     96.76%
+ 579  B.BE.2017.BW.MN486019                                         13.51%    passed     97.94%
+ 580  B.BE.2017.BX.MN486020                                         12.61%    passed     96.32%
+ 581  B.BE.2017.BY.MN486021                                         13.51%    passed     99.86%
+ 582  B.BE.2017.BZ.MN486022                                         12.91%    passed     90.88%
+ 583  B.BE.2017.CB.MN486024                                         12.61%    passed     90.22%
+ 584  B.BE.2017.CD.MN486026                                         12.61%    passed     95.53%
+ 585  B.BE.2017.CE.MN486027                                         13.81%    passed     96.41%
+ 586  B.BE.2017.CF.MN486028                                         12.61%    passed     98.35%
+ 587  B.BE.2017.CG.MN486029                                         12.91%    passed     94.98%
+ 588  B.BE.2017.CJ.MN486032                                         12.61%    passed     96.28%
+ 589  B.BE.2018.CL.MN486034                                         12.61%    passed     95.36%
+ 590  B.BE.2014.CN.MN486036                                         13.21%    passed     82.96%
+ 591  B.BE.2016.CO.MN486037                                         15.92%    passed     92.31%
+ 592  B.BE.2016.CP.MN486038                                         13.81%    passed     88.14%
+ 593  B.BE.2017.CR.MN486040                                         11.71%    passed     97.88%
+ 594  B.BE.2016.CS.MN486041                                         12.61%    passed     96.31%
+ 595  B.BE.2016.CY.MN486047                                         13.21%    passed     83.56%
+ 596  B.SI.2016.Sample12_SI159.MN736698                             17.12%    passed     93.20%
+ 597  B.SI.2011.Sample29_SI257.MN736700                             13.51%    passed     91.75%
+ 598  B.SI.2013.Sample43_SI378.MN736704                             13.51%    passed     97.80%
+ 599  B.SI.2015.Sample56_SI457.MN736706                             12.61%    passed     97.02%
+ 600  B.SI.2016.Sample65_SI497.MN736707                             10.81%    passed     84.81%
+ 601  B.GB.2016.DEMB16UK018.MT222951                                12.61%    passed     95.38%
+ 602  B.GB.2018.DEMB18UK020.MT222952                                12.91%    passed     95.83%
+ 603  B.BE.2017.DC.MT417739                                         12.61%    passed     99.37%
+ 604  B.BE.2015.DD.MT417740                                         13.21%    passed     96.38%
+ 605  B.BE.2015.DE.MT417741                                         12.61%    passed     99.93%
+ 606  B.BE.2016.DF.MT417742                                         13.51%    passed     99.00%
+ 607  B.BE.2016.DH.MT417744                                         18.02%    passed     99.23%
+ 608  B.BE.2015.DM.MT417749                                         13.51%    passed     64.61%
+ 609  B.BE.2019.DO.MT417751                                         12.61%    passed     97.12%
+ 610  B.BE.2019.DP.MT417752                                         15.02%    passed     89.36%
+ 611  B.BE.2018.DQ.MT417753                                         13.21%    passed     98.32%
+ 612  B.BE.2017.DR.MT417754                                         13.21%    passed     98.40%
+ 613  B.BE.2017.DW.MT417759                                         14.41%    passed     98.58%
+ 614  B.BE.2016.DX.MT417760                                         13.51%    passed     99.92%
+ 615  B.BE.2019.DY.MT417761                                         11.71%    passed     99.85%
+ 616  B.BE.2019.ED.MT417766                                         14.41%    passed     98.29%
+ 617  B.BE.2019.EE.MT417767                                         12.91%    passed     95.72%
+ 618  B.BE.2016.EF.MT417768                                         15.62%    passed     98.34%
+ 619  B.BE.2019.EI.MT417771                                         12.61%    passed     99.43%
+ 620  B.BE.2019.EJ.MT417772                                         13.81%    passed     99.66%
+ 621  B.GB.2001.MM15.02.SGS.2.MT793919                              12.61%    passed     98.15%
+ 622  B.GB.2009.MM23.18.1A1.QVOA.MT794005                           12.61%    passed     99.93%
+ 623  B.GB.2011.MM34.23.1B2.QVOA.MT794569                           13.51%    passed     97.77%
+ 624  B.GB.2010.MM40.20.PBMC.6.MT794826                             10.81%    passed     99.76%
+ 625  B.GB.2007.MM55.03.2A1.bulk.MT795003                           12.61%    passed     98.33%
+ 626  B.GB.2008.MM62.01.SGS.2.MT795082                              12.61%    passed     99.90%
+ 627  B.BE.2016.P6_G1_STAT5B.MW881748                               12.61%    passed     99.75%
+ 628  B.BE.2016.P7_G10_NA.MW881757                                  12.61%    passed     97.80%
+ 629  B.BE.2016.P8_G_1_SMG1P2.MW881768                              12.61%    passed     99.28%
+ 630  B.BE.2016.STAR04_CD45_26.MZ041494                             12.61%    passed     97.50%
+ 631  B.BE.2016.STAR09_TCM_TTM_54.MZ041613                          12.61%    passed     99.87%
+ 632  B.FR.2018.AB-11A.ON421462                                     12.61%    passed     94.32%
+ 633  B.FR.2018.AE-B4.ON421477                                      13.51%    passed     95.99%
+ 634  B.FR.2018.S-1A2.ON421498                                      13.51%    passed     97.82%
+ 635  B.FR.2018.T-13A.ON421502                                      12.61%    passed     83.98%
+ 636  B.FR.2018.V-A6.ON421508                                       12.61%    passed     94.82%
+ 637  B.GB.2019.ID402-p5-D10_S25.ON542773                           12.61%    passed     97.24%
+ 638  B.FR.2014.CHI5_6.OP994378                                     12.61%    passed     95.89%
+ 639  B.FR.2015.CHI2_1.OP994403                                     14.41%    passed     85.42%
+ 640  B.FR.2015.CHI3_2.OP994428                                     12.61%    passed     99.78%
+ 641  B.FR.2014.CHI4_3.OP994447                                     12.61%    passed     91.04%
+ 642  B.FR.2013.CHI6_12b.OP994482                                   12.61%    passed     98.45%
+ 643  B.FR.2010.PHI3_1.OP994495                                     14.41%    passed     65.56%
+ 644  B.FR.2010.PHI5_2.OP994516                                     12.61%    passed     99.18%
+ 645  B.FR.2013.PHI2_2.OP994535                                     12.61%    passed     97.41%
+ 646  B.FR.2012.PHI7_6.OP994562                                     12.61%    passed     96.84%
+ 647  B.FR.2012.PHI8_1.OP994587                                     12.61%    passed     98.42%
+ 648  B.FR.2012.PHI6_1.OP994622                                     12.61%    passed     99.78%
+ 649  B.FR.2013.180003_2.OP994703                                   12.61%    passed     98.83%
+ 650  B.FR.2010.098001_7.OP994722                                   12.61%    passed     98.00%
+ 651  B.FR.2014.070001_8d.OP994747                                  12.61%    passed     96.88%
+ 652  B.FR.2015.CODb1_3.OP994762                                    13.51%    passed     96.74%
+ 653  B.FR.2014.CODb6_2.OP994796                                    12.61%    passed     92.14%
+ 654  B.FR.2014.CODb3_2.OP994808                                    12.61%    passed     96.03%
+ 655  B.BE.2017.CIS06042-V1-CD4-21.OQ596839                         12.61%    passed     87.17%
+ 656  B.BE.2021.MRC04-V1-FLIPS-CD4-11.OQ596869                      12.61%    passed     95.89%
+ 657  B.BE.2020.STIPSEQ-MRC001-HG-MAA-B09-UBE2D3.OQ596882           12.61%    passed     96.44%
+ 658  B.BE.2021.STIPSEQ-MRC008-HG-MBJ-B07-RNF157.OQ596919           12.61%    passed     93.84%
+ 659  B.BE.2021.STIPSEQ-MRC015-HG-MAK-E04-Chr1-235032976.OQ596939   12.61%    passed     99.05%
+ 660  B.BE.2021.STIPSEQ-MRC021-MDW-B06-Chr1-148520143.OQ596943      12.61%    passed     93.87%
+ 661  B.CH.2021.A1.OQ747093                                         12.61%    passed     91.41%
+ 662  B.CH.2021.B1.OQ747115                                         12.61%    passed     98.27%
+ 663  B.CH.2021.C1.OQ747137                                         12.61%    passed     98.27%
+ 664  B.CH.2021.556A14.OQ866355                                     12.61%    passed     99.37%
+ 665  B.NO.2019.TITAN-pv11-ID815-D16-C4_S267_L001_001.OR014903      12.61%    passed     88.85%
+ 666  B.DK.2019.TITAN-Sc-ID109-P1-D7_S317_L001_001.OR015012         12.61%    passed     90.15%
+ 667  B.DK.2019.TITAN-Sc-ID119-P4-D5_S293_L001_001.OR015097         12.61%    passed     93.94%
+ 668  B.DK.2019.TITAN-Sc-ID139-P5-F3_S111_L001_001.OR015171         13.51%    passed     97.42%
+ 669  B.NO.2019.TITAN-Sc-ID801-p4-B3_S54_L001_001.OR015483          11.71%    passed     96.23%
+ 670  B.DK.2019.TITAN-V2-ID114-P3-B10_S245_L001_001.OR015696        15.32%    passed     92.98%
+ 671  B.DK.2019.TITAN-v2-ID412-P2-G10_S14_L001_001.OR015736         12.61%    passed     78.55%
+ 672  B.FR.1985.LW123.U12055                                        17.12%    passed     93.49%
+ 673  B.NL.1986.H0320_2A12_ACH3202A12.U34603                        11.71%    passed     95.96%
+ 674  B.DE.1986.D31.U43096                                          12.61%    passed     99.93%
+ 675  B.NL.1985.H0172_1.Z68542                                      12.61%    passed     99.15%
+ 676  B.NL.1985.H0186_1.Z68543                                      12.61%    passed     99.66%
+ 677  B.NL.1985.H0411_1.Z68547                                      12.91%    passed     92.42%
+ 678  B.NL.1986.H0537_1.Z68550                                      12.61%    passed     94.32%
+ 679  B.NL.1985.H0709_1_H0709.Z68551                                12.91%    passed     91.22%
+ 680  B.NL.1986.H1145.Z68552                                        12.61%    passed     99.73%
+ 681  B.NL.1989.I0090_1.Z68568                                      12.91%    passed     99.06%
+ 682  B.NL.1991.I0141_1.Z68569                                      12.61%    passed     99.85%
+ 683  B.NL.1987.I0142_1.Z68570                                      12.61%    passed     93.86%
+ 684  B.NL.1990.I0221_1.Z68571                                      13.51%    passed     92.58%
+ 685  B.NL.1987.I1035_1.Z68572                                      12.61%    passed     99.11%
+ 686  B.NL.1987.I1083_1.Z68573                                      12.61%    passed     99.80%
+ 687  B.NL.1990.I1164_1.Z68574                                      12.91%    passed     99.03%
+ 688  B.NL.1986.I3007_1.Z68575                                      12.61%    passed     99.36%
+ 689  B.NL.1988.I3008_1.Z68576                                      12.61%    passed     95.31%
+ 690  B.NL.1990.I3064_1.Z68577                                      12.91%    passed     99.36%
+ 691  B.NL.1990.I3072_1.Z68578                                      12.91%    passed     98.52%
+ 692  B.NL.1991.I3077_1.Z68579                                      12.61%    passed     97.32%
+ 693  B.NL.1987.I5032_1.Z68580                                      12.91%    passed     99.08%
+ 694  B.NL.1989.I5037_1.Z68581                                      12.91%    passed     99.60%
+ 695  B.NL.1989.I5038_1.Z68582                                      13.51%    passed     99.29%
+ 696  B.NL.1991.I7025_1.Z68583                                      13.51%    passed     99.53%
+ 697  B.NL.1991.I3057_1.Z68584                                      12.61%    passed     94.19%
+ 698  B.NL.1988.I0070_1.Z68585                                      12.61%    passed     86.69%
+****  TOTAL                                                         13.23%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: B.FR.1983.BH102_BH10.M15654 is identical to B.FR.1983.HXB2-LAI-IIIB-BRU.K03455 but kept for subsequent analysis
+NOTE: B.ES.2001.4.AY444333 is identical to B.ES.2001.10.AY444320 but kept for subsequent analysis
+NOTE: B.ES.2011.SPX11.KU901586 is identical to B.ES.2007.X2210_3.EU786679 but kept for subsequent analysis
+NOTE: B.GB.2010.MM40.20.PBMC.6.MT794826 is identical to B.GB.2004.MM43d21_GN1.HM586206 but kept for subsequent analysis
+NOTE: B.FR.2008.10020148.JN125905 is identical to B.FR.2008.10011074.JN125904 but kept for subsequent analysis
+NOTE: B.DE.2004.912218.KT124804 is identical to B.DE.2004.9213_V4136_d3.JQ403050 but kept for subsequent analysis
+NOTE: B.SE.2009.030SE.MF373144 is identical to B.SE.2009.SE600001.KP411822 but kept for subsequent analysis
+NOTE: B.GB.2014.14592_1_58.3.MF109552 is identical to B.GB.2013.13592_1_11.3.MF109353 but kept for subsequent analysis
+NOTE: B.GB.2013.13774_1_48.4.MF109473 is identical to B.GB.2013.13592_1_29.3.MF109372 but kept for subsequent analysis
+NOTE: B.GB.2014.14667_1_37.3.MF109597 is identical to B.GB.2014.13659_1_75.3.MF109461 but kept for subsequent analysis
+NOTE: B.GB.2014.14727_1_75.3.MF109636 is identical to B.GB.2014.14727_1_66.3.MF109627 but kept for subsequent analysis
+NOTE: B.CH.2021.C1.OQ747137 is identical to B.CH.2021.B1.OQ747115 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00719285 secs using 45.57% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.132 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 1.79317 secs using 95.53% CPU
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -33218.392
+2. Current log-likelihood: -33215.049
+Optimal log-likelihood: -33214.830
+Rate parameters:  A-C: 3.43444  A-G: 7.30091  A-T: 1.16319  C-G: 1.27907  C-T: 11.34143  G-T: 1.00000
+Base frequencies:  A: 0.337  C: 0.185  G: 0.257  T: 0.221
+Proportion of invariable sites: 0.175
+Gamma shape alpha: 0.698
+Parameters optimization took 2 rounds (0.766 sec)
+Time for fast ML tree search: 5.196 seconds
+
+NOTE: ModelFinder requires 67 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 333) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         38395.913    1401 79593.826    4007997.826  84929.034
+  2  GTR+F+I       37076.242    1402 76956.485    4010968.485  82295.501
+  3  GTR+F+G4      33291.268    1402 69386.537    4003398.537  74725.553
+  4  GTR+F+I+G4    33214.785    1403 69235.570    4008859.570  74578.393
+  5  GTR+F+R2      34318.721    1403 71443.443    4011067.443  76786.266
+  6  GTR+F+R3      33452.883    1405 69715.765    4020575.765  75066.205
+  7  GTR+F+R4      33205.106    1407 69224.212    4031336.212  74582.269
+  8  GTR+F+R5      33116.861    1409 69051.721    4042431.721  74417.394
+  9  GTR+F+R6      33101.732    1411 69025.464    4053689.464  74398.753
+ 10  GTR+F+R7      33056.320    1413 68938.640    4064902.640  74319.545
+ 11  GTR+F+R8      33053.780    1415 68937.560    4076217.560  74326.082
+ 14  GTR+F+I+R2    34043.098    1404 70894.195    4016134.195  76240.827
+ 15  GTR+F+I+R3    33359.022    1406 69530.045    4026014.045  74884.293
+ 16  GTR+F+I+R4    33166.656    1408 69149.312    4036893.312  74511.177
+ 17  GTR+F+I+R5    33104.840    1410 69029.679    4048049.679  74399.160
+ 18  GTR+F+I+R6    33096.880    1412 69017.760    4059329.760  74394.857
+ 19  GTR+F+I+R7    33052.271    1414 68932.543    4070552.543  74317.256
+ 20  GTR+F+I+R8    33052.338    1416 68936.676    4081880.676  74329.005
+ 32  SYM+R7        33077.261    1410 68974.523    4047994.523  74344.004
+ 33  SYM+R8        33073.108    1412 68970.216    4059282.216  74347.314
+ 41  SYM+I+R7      33072.739    1411 68967.478    4053631.478  74340.768
+ 54  TVM+F+R7      33082.350    1412 68988.699    4059300.699  74365.796
+ 55  TVM+F+R8      33080.107    1414 68988.214    4070608.214  74372.928
+ 63  TVM+F+I+R7    33081.006    1413 68988.012    4064952.012  74368.917
+ 76  TVMe+R7       33101.770    1409 69021.541    4042401.541  74387.213
+ 77  TVMe+R8       33095.560    1411 69013.121    4053677.121  74386.410
+ 85  TVMe+I+R7     33097.011    1410 69014.022    4048034.022  74383.503
+ 98  TIM3+F+R7     33140.193    1411 69102.385    4053766.385  74475.674
+ 99  TIM3+F+R8     33137.689    1413 69101.379    4065065.379  74482.284
+107  TIM3+F+I+R7   33137.385    1412 69098.769    4059410.769  74475.867
+120  TIM3e+R7      33223.931    1408 69263.863    4037007.863  74625.728
+121  TIM3e+R8      33219.349    1410 69258.697    4048278.697  74628.178
+129  TIM3e+I+R7    33220.057    1409 69258.113    4042638.113  74623.786
+142  TIM2+F+R7     33192.698    1411 69207.395    4053871.395  74580.684
+WARNING: Log-likelihood -33229.7 of TIM2+F+R8 worse than TIM2+F+R7 -33192.7
+143  TIM2+F+R8     33229.670    1413 69285.340    4065249.340  74666.245
+151  TIM2+F+I+R7   33188.705    1412 69201.410    4059513.410  74578.507
+164  TIM2e+R7      33166.065    1408 69148.130    4036892.130  74509.995
+165  TIM2e+R8      33162.321    1410 69144.642    4048164.642  74514.123
+173  TIM2e+I+R7    33161.052    1409 69140.105    4042520.105  74505.777
+186  TIM+F+R7      33197.564    1411 69217.127    4053881.127  74590.416
+187  TIM+F+R8      33192.779    1413 69211.558    4065175.558  74592.464
+195  TIM+F+I+R7    33194.520    1412 69213.041    4059525.041  74590.138
+208  TIMe+R7       33243.910    1408 69303.820    4037047.820  74665.685
+209  TIMe+R8       33240.895    1410 69301.790    4048321.790  74671.271
+217  TIMe+I+R7     33239.616    1409 69297.231    4042677.231  74662.904
+230  TPM3u+F+R7    33165.320    1410 69150.641    4048170.641  74520.121
+231  TPM3u+F+R8    33163.798    1412 69151.597    4059463.597  74528.694
+239  TPM3u+F+I+R7  33163.810    1411 69149.620    4053813.620  74522.909
+252  TPM3+R7       33233.509    1407 69281.018    4031393.018  74639.075
+WARNING: Log-likelihood -33276.9 of TPM3+R8 worse than TPM3+R7 -33233.5
+253  TPM3+R8       33276.939    1409 69371.878    4042751.878  74737.551
+261  TPM3+I+R7     33229.834    1408 69275.669    4037019.669  74637.533
+274  TPM2u+F+R7    33229.778    1410 69279.556    4048299.556  74649.037
+275  TPM2u+F+R8    33228.813    1412 69281.626    4059593.626  74658.724
+283  TPM2u+F+I+R7  33226.674    1411 69275.347    4053939.347  74648.636
+296  TPM2+R7       33185.643    1407 69185.287    4031297.287  74543.343
+297  TPM2+R8       33185.538    1409 69189.076    4042569.076  74554.749
+305  TPM2+I+R7     33180.479    1408 69176.958    4036920.958  74538.822
+318  K3Pu+F+R7     33230.361    1410 69280.723    4048300.723  74650.204
+319  K3Pu+F+R8     33221.227    1412 69266.454    4059578.454  74643.551
+327  K3Pu+F+I+R7   33226.853    1411 69275.706    4053939.706  74648.995
+340  K3P+R7        33251.477    1407 69316.953    4031428.953  74675.010
+WARNING: Log-likelihood -33298.6 of K3P+R8 worse than K3P+R7 -33251.5
+341  K3P+R8        33298.638    1409 69415.276    4042795.276  74780.949
+349  K3P+I+R7      33247.256    1408 69310.512    4037054.512  74672.377
+362  TN+F+R7       33249.387    1410 69318.773    4048338.773  74688.254
+363  TN+F+R8       33244.407    1412 69312.813    4059624.813  74689.910
+371  TN+F+I+R7     33246.212    1411 69314.424    4053978.424  74687.713
+384  TNe+R7        33286.439    1407 69386.878    4031498.878  74744.934
+385  TNe+R8        33283.508    1409 69385.016    4042765.016  74750.689
+393  TNe+I+R7      33282.135    1408 69380.270    4037124.270  74742.135
+406  HKY+F+R7      33285.577    1409 69389.155    4042769.155  74754.828
+407  HKY+F+R8      33284.239    1411 69390.478    4054054.478  74763.767
+415  HKY+F+I+R7    33282.226    1410 69384.453    4048404.453  74753.933
+428  K2P+R7        33294.033    1406 69400.065    4025884.065  74754.314
+WARNING: Log-likelihood -33339.4 of K2P+R8 worse than K2P+R7 -33294
+429  K2P+R8        33339.409    1408 69494.819    4037238.819  74856.684
+437  K2P+I+R7      33289.823    1407 69393.646    4031505.646  74751.702
+450  F81+F+R7      35326.130    1408 73468.260    4041212.260  78830.125
+WARNING: Log-likelihood -35354.8 of F81+F+R8 worse than F81+F+R7 -35326.1
+451  F81+F+R8      35354.753    1410 73529.506    4052549.506  78898.987
+459  F81+F+I+R7    35321.852    1409 73461.704    4046841.704  78827.377
+472  JC+R7         35554.827    1405 73919.654    4024779.654  79270.094
+473  JC+R8         35554.118    1407 73922.235    4036034.235  79280.292
+481  JC+I+R7       35550.591    1406 73913.182    4030397.182  79267.430
+Akaike Information Criterion:           GTR+F+I+R7
+Corrected Akaike Information Criterion: GTR+F+G4
+Bayesian Information Criterion:         GTR+F+I+R7
+Best-fit model: GTR+F+I+R7 chosen according to BIC
+
+All model information printed to /cfs/earth/scratch/iglh/Masterthesis_Mickaël/data/vpr/HIV-1_vpr_DNA_mafft_alignment.fasta.model.gz
+CPU time for ModelFinder: 2888.438 seconds (0h:48m:8s)
+Wall-clock time for ModelFinder: 2902.882 seconds (0h:48m:22s)
+
+NOTE: 47 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -33052.271
+Optimal log-likelihood: -33052.143
+Rate parameters:  A-C: 3.22325  A-G: 7.29108  A-T: 1.10465  C-G: 1.22429  C-T: 10.41958  G-T: 1.00000
+Base frequencies:  A: 0.337  C: 0.185  G: 0.257  T: 0.221
+Proportion of invariable sites: 0.145
+Site proportion and rates:  (0.289,0.072) (0.103,0.299) (0.079,0.638) (0.129,1.083) (0.140,1.957) (0.082,3.597) (0.032,5.822)
+Parameters optimization took 1 rounds (1.195 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 2.0729 secs using 99.71% CPU
+Computing ML distances took 2.075899 sec (of wall-clock time) 2.068649 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.0113577 secs using 181.9% CPU
+Constructing RapidNJ tree: done in 0.0866989 secs using 190.3% CPU
+Computing RapidNJ tree took 0.099625 sec (of wall-clock time) 0.187398 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -32914.933
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 11.945 second
+Computing log-likelihood of 98 initial trees ... 12.276 seconds
+Current best score: -32914.933
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 4.0591 secs using 97.01% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -32584.816
+Optimizing NNI: done in 1.62802 secs using 96.94% CPU
+Optimizing NNI: done in 3.34922 secs using 96.99% CPU
+Optimizing NNI: done in 2.94038 secs using 96.81% CPU
+Optimizing NNI: done in 3.08058 secs using 96.85% CPU
+Optimizing NNI: done in 2.6517 secs using 96.75% CPU
+Optimizing NNI: done in 2.52597 secs using 96.68% CPU
+Optimizing NNI: done in 3.97052 secs using 96.6% CPU
+Optimizing NNI: done in 3.17324 secs using 97.12% CPU
+Optimizing NNI: done in 3.15669 secs using 96.66% CPU
+Iteration 10 / LogL: -32905.133 / Time: 0h:1m:7s
+Optimizing NNI: done in 3.4459 secs using 97.33% CPU
+Optimizing NNI: done in 3.08409 secs using 97.5% CPU
+Optimizing NNI: done in 2.98798 secs using 97.02% CPU
+Optimizing NNI: done in 3.09237 secs using 96.99% CPU
+Optimizing NNI: done in 3.61252 secs using 96.83% CPU
+Optimizing NNI: done in 2.73691 secs using 96.74% CPU
+Optimizing NNI: done in 2.83907 secs using 97.27% CPU
+Optimizing NNI: done in 3.8989 secs using 97.1% CPU
+Optimizing NNI: done in 3.93099 secs using 96.56% CPU
+Optimizing NNI: done in 3.0519 secs using 96.82% CPU
+Iteration 20 / LogL: -32992.389 / Time: 0h:1m:40s
+Finish initializing candidate tree set (20)
+Current best tree score: -32584.816 / CPU time: 96.245
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 2.47309 secs using 96.33% CPU
+Optimizing NNI: done in 2.62323 secs using 96.61% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -32566.876
+Optimizing NNI: done in 2.81441 secs using 97.03% CPU
+Optimizing NNI: done in 2.91879 secs using 97.03% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -32549.083
+Optimizing NNI: done in 2.74474 secs using 97.54% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 25: -32541.852
+Optimizing NNI: done in 2.91243 secs using 96.92% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -32538.792
+Optimizing NNI: done in 2.83586 secs using 96.63% CPU
+Optimizing NNI: done in 2.69054 secs using 96.8% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 28: -32536.095
+Optimizing NNI: done in 2.41314 secs using 96.54% CPU
+Optimizing NNI: done in 2.84789 secs using 96.5% CPU
+Iteration 30 / LogL: -32556.009 / Time: 0h:2m:20s (0h:7m:53s left)
+Optimizing NNI: done in 2.48756 secs using 97.07% CPU
+Optimizing NNI: done in 2.71398 secs using 96.56% CPU
+Optimizing NNI: done in 2.9807 secs using 96.75% CPU
+Optimizing NNI: done in 2.46633 secs using 97.01% CPU
+Optimizing NNI: done in 2.88827 secs using 96.72% CPU
+Optimizing NNI: done in 2.82436 secs using 96.69% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 36: -32526.511
+Optimizing NNI: done in 2.77663 secs using 96.24% CPU
+Optimizing NNI: done in 2.47447 secs using 96.38% CPU
+Optimizing NNI: done in 2.62948 secs using 96.42% CPU
+Optimizing NNI: done in 2.70537 secs using 96.96% CPU
+Iteration 40 / LogL: -32528.566 / Time: 0h:2m:50s (0h:6m:58s left)
+Optimizing NNI: done in 2.69621 secs using 96.91% CPU
+Optimizing NNI: done in 2.50913 secs using 97.1% CPU
+Optimizing NNI: done in 2.92379 secs using 97.1% CPU
+Optimizing NNI: done in 2.71293 secs using 96.64% CPU
+Optimizing NNI: done in 2.65086 secs using 96.83% CPU
+Optimizing NNI: done in 2.36843 secs using 96.35% CPU
+Optimizing NNI: done in 2.65423 secs using 96.3% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 47: -32523.957
+Optimizing NNI: done in 2.92769 secs using 96.97% CPU
+Optimizing NNI: done in 2.17202 secs using 96.73% CPU
+Optimizing NNI: done in 2.56065 secs using 96.68% CPU
+Iteration 50 / LogL: -32594.561 / Time: 0h:3m:19s (0h:6m:34s left)
+Optimizing NNI: done in 2.79032 secs using 97.29% CPU
+Optimizing NNI: done in 2.23219 secs using 97.12% CPU
+Optimizing NNI: done in 2.57499 secs using 96.74% CPU
+Optimizing NNI: done in 2.55552 secs using 96.95% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 54: -32517.803
+Optimizing NNI: done in 2.57082 secs using 96.89% CPU
+Optimizing NNI: done in 2.55608 secs using 97.19% CPU
+Optimizing NNI: done in 2.62789 secs using 96.88% CPU
+Optimizing NNI: done in 3.14212 secs using 96.9% CPU
+Optimizing NNI: done in 2.51094 secs using 97.34% CPU
+Optimizing NNI: done in 2.80991 secs using 97.31% CPU
+Iteration 60 / LogL: -32570.638 / Time: 0h:3m:47s (0h:6m:2s left)
+Optimizing NNI: done in 2.50529 secs using 96.42% CPU
+Optimizing NNI: done in 2.49336 secs using 96.8% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 62: -32506.584
+Optimizing NNI: done in 2.56953 secs using 96.81% CPU
+Optimizing NNI: done in 2.50038 secs using 97.09% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 64: -32501.415
+Optimizing NNI: done in 2.56337 secs using 96.88% CPU
+Optimizing NNI: done in 2.84817 secs using 97.13% CPU
+Optimizing NNI: done in 2.66514 secs using 96.43% CPU
+Optimizing NNI: done in 2.64326 secs using 96.74% CPU
+Optimizing NNI: done in 2.6166 secs using 97.02% CPU
+Optimizing NNI: done in 2.91537 secs using 97.26% CPU
+Iteration 70 / LogL: -32528.379 / Time: 0h:4m:19s (0h:5m:53s left)
+Optimizing NNI: done in 2.48939 secs using 97.08% CPU
+Optimizing NNI: done in 2.54916 secs using 96.79% CPU
+Optimizing NNI: done in 2.51846 secs using 96.67% CPU
+Optimizing NNI: done in 2.6011 secs using 96.19% CPU
+Optimizing NNI: done in 2.62206 secs using 96.53% CPU
+Optimizing NNI: done in 2.90422 secs using 96.67% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 76: -32494.112
+Optimizing NNI: done in 2.51674 secs using 96.55% CPU
+Optimizing NNI: done in 3.18754 secs using 96.88% CPU
+Optimizing NNI: done in 2.44925 secs using 96.14% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 79: -32488.408
+Optimizing NNI: done in 2.62562 secs using 96.91% CPU
+Iteration 80 / LogL: -32532.025 / Time: 0h:4m:51s (0h:6m:5s left)
+Optimizing NNI: done in 2.59453 secs using 95.99% CPU
+Optimizing NNI: done in 2.71374 secs using 96.78% CPU
+Optimizing NNI: done in 2.43044 secs using 96.23% CPU
+Optimizing NNI: done in 2.84237 secs using 96.36% CPU
+Optimizing NNI: done in 2.78524 secs using 96.51% CPU
+Optimizing NNI: done in 2.26396 secs using 96.99% CPU
+Optimizing NNI: done in 2.41606 secs using 96.75% CPU
+Optimizing NNI: done in 2.87387 secs using 96.12% CPU
+Optimizing NNI: done in 2.50811 secs using 96.62% CPU
+Optimizing NNI: done in 3.03155 secs using 97.43% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 90: -32486.549
+Iteration 90 / LogL: -32486.549 / Time: 0h:5m:21s (0h:6m:0s left)
+Optimizing NNI: done in 2.33121 secs using 96.12% CPU
+Optimizing NNI: done in 2.80298 secs using 96.81% CPU
+Optimizing NNI: done in 2.87753 secs using 96.78% CPU
+Optimizing NNI: done in 2.93656 secs using 96.64% CPU
+Optimizing NNI: done in 2.33112 secs using 96.72% CPU
+Optimizing NNI: done in 2.77157 secs using 96.88% CPU
+Optimizing NNI: done in 2.48347 secs using 97.07% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 97: -32481.723
+Optimizing NNI: done in 2.51053 secs using 96.86% CPU
+Optimizing NNI: done in 2.73913 secs using 96.56% CPU
+Optimizing NNI: done in 2.51216 secs using 96.11% CPU
+Iteration 100 / LogL: -32497.652 / Time: 0h:5m:49s (0h:5m:42s left)
+Optimizing NNI: done in 2.42202 secs using 96.59% CPU
+Optimizing NNI: done in 2.69554 secs using 96.58% CPU
+Optimizing NNI: done in 2.59558 secs using 96.46% CPU
+Optimizing NNI: done in 2.46989 secs using 97.14% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 104: -32477.589
+Optimizing NNI: done in 2.53318 secs using 96.49% CPU
+Optimizing NNI: done in 2.63133 secs using 96.65% CPU
+Optimizing NNI: done in 2.3511 secs using 96.58% CPU
+Optimizing NNI: done in 2.89066 secs using 96.76% CPU
+Optimizing NNI: done in 2.63783 secs using 97.3% CPU
+Optimizing NNI: done in 2.53294 secs using 96.02% CPU
+Iteration 110 / LogL: -32513.261 / Time: 0h:6m:18s (0h:5m:26s left)
+Optimizing NNI: done in 2.65225 secs using 96.6% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 111: -32466.126
+Optimizing NNI: done in 2.56764 secs using 96.69% CPU
+Optimizing NNI: done in 2.58002 secs using 97.09% CPU
+Optimizing NNI: done in 2.66847 secs using 96.58% CPU
+Optimizing NNI: done in 2.85267 secs using 97.7% CPU
+Optimizing NNI: done in 2.62443 secs using 96.57% CPU
+Optimizing NNI: done in 2.4417 secs using 96.98% CPU
+Optimizing NNI: done in 2.46373 secs using 96.36% CPU
+Optimizing NNI: done in 3.25621 secs using 96.51% CPU
+Optimizing NNI: done in 2.68803 secs using 96.12% CPU
+Iteration 120 / LogL: -32508.513 / Time: 0h:6m:48s (0h:5m:12s left)
+Optimizing NNI: done in 2.56198 secs using 96.88% CPU
+Optimizing NNI: done in 2.53061 secs using 96.84% CPU
+Optimizing NNI: done in 2.4217 secs using 96.38% CPU
+Optimizing NNI: done in 2.62975 secs using 96.61% CPU
+Optimizing NNI: done in 2.22571 secs using 96.98% CPU
+Optimizing NNI: done in 2.59178 secs using 96.37% CPU
+Optimizing NNI: done in 2.54329 secs using 96.31% CPU
+Optimizing NNI: done in 2.50641 secs using 97.17% CPU
+Optimizing NNI: done in 2.52969 secs using 97.32% CPU
+Optimizing NNI: done in 2.60626 secs using 95.78% CPU
+Iteration 130 / LogL: -32481.165 / Time: 0h:7m:14s (0h:4m:32s left)
+Optimizing NNI: done in 2.5714 secs using 96.97% CPU
+Optimizing NNI: done in 2.62629 secs using 96.84% CPU
+Optimizing NNI: done in 2.90435 secs using 96.43% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 133: -32464.810
+Optimizing NNI: done in 2.66512 secs using 97.25% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 134: -32464.633
+Optimizing NNI: done in 2.98778 secs using 96.79% CPU
+Optimizing NNI: done in 2.60038 secs using 96.69% CPU
+Optimizing NNI: done in 2.69502 secs using 96.58% CPU
+Optimizing NNI: done in 2.52273 secs using 97.11% CPU
+Optimizing NNI: done in 2.39142 secs using 96.59% CPU
+Optimizing NNI: done in 2.61513 secs using 96.6% CPU
+Iteration 140 / LogL: -32497.600 / Time: 0h:7m:43s (0h:5m:13s left)
+Optimizing NNI: done in 2.60399 secs using 97.12% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 141: -32454.832
+Optimizing NNI: done in 3.00834 secs using 97.27% CPU
+Optimizing NNI: done in 2.27901 secs using 96.57% CPU
+Optimizing NNI: done in 2.76949 secs using 96.66% CPU
+Optimizing NNI: done in 2.42691 secs using 96.93% CPU
+Optimizing NNI: done in 2.48584 secs using 96.55% CPU
+Optimizing NNI: done in 2.42283 secs using 97.17% CPU
+Optimizing NNI: done in 2.741 secs using 96.92% CPU
+Optimizing NNI: done in 2.30388 secs using 96.12% CPU
+Optimizing NNI: done in 2.23584 secs using 96.33% CPU
+Iteration 150 / LogL: -32485.153 / Time: 0h:8m:12s (0h:5m:0s left)
+Optimizing NNI: done in 2.49467 secs using 96.32% CPU
+Optimizing NNI: done in 2.40754 secs using 96.53% CPU
+Optimizing NNI: done in 2.31223 secs using 96.78% CPU
+Optimizing NNI: done in 2.60642 secs using 97.04% CPU
+Optimizing NNI: done in 2.81695 secs using 96.72% CPU
+Optimizing NNI: done in 2.60295 secs using 96.96% CPU
+Optimizing NNI: done in 2.84919 secs using 97.14% CPU
+Optimizing NNI: done in 2.80199 secs using 96.77% CPU
+Optimizing NNI: done in 2.45971 secs using 96.8% CPU
+Optimizing NNI: done in 2.61874 secs using 97.25% CPU
+Iteration 160 / LogL: -32474.708 / Time: 0h:8m:38s (0h:4m:24s left)
+Optimizing NNI: done in 2.36516 secs using 96.22% CPU
+Optimizing NNI: done in 2.40013 secs using 95.98% CPU
+Optimizing NNI: done in 2.46621 secs using 96.28% CPU
+Optimizing NNI: done in 2.47757 secs using 97.18% CPU
+Optimizing NNI: done in 2.51622 secs using 96.71% CPU
+Optimizing NNI: done in 2.43402 secs using 96.69% CPU
+Optimizing NNI: done in 2.42539 secs using 96.8% CPU
+Optimizing NNI: done in 2.92451 secs using 96.11% CPU
+Optimizing NNI: done in 2.51503 secs using 96.71% CPU
+Optimizing NNI: done in 2.34476 secs using 96.49% CPU
+Iteration 170 / LogL: -32457.138 / Time: 0h:9m:4s (0h:3m:48s left)
+Optimizing NNI: done in 2.26341 secs using 97.16% CPU
+Optimizing NNI: done in 2.70659 secs using 96.48% CPU
+Optimizing NNI: done in 2.47822 secs using 97.02% CPU
+Optimizing NNI: done in 2.41805 secs using 96.46% CPU
+Optimizing NNI: done in 2.70809 secs using 96.59% CPU
+Optimizing NNI: done in 2.3859 secs using 96.58% CPU
+Optimizing NNI: done in 2.67149 secs using 96.62% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 177: -32446.904
+Optimizing NNI: done in 2.43088 secs using 96.93% CPU
+Optimizing NNI: done in 2.58656 secs using 96.91% CPU
+Optimizing NNI: done in 2.25106 secs using 97.06% CPU
+Iteration 180 / LogL: -32481.163 / Time: 0h:9m:32s (0h:5m:10s left)
+Optimizing NNI: done in 2.59316 secs using 96.65% CPU
+Optimizing NNI: done in 2.68622 secs using 96.75% CPU
+Optimizing NNI: done in 2.37594 secs using 97.54% CPU
+Optimizing NNI: done in 2.41073 secs using 97.36% CPU
+Optimizing NNI: done in 2.50316 secs using 97.13% CPU
+Optimizing NNI: done in 2.31856 secs using 96.06% CPU
+Optimizing NNI: done in 2.71684 secs using 96.97% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 187: -32444.556
+Optimizing NNI: done in 2.81512 secs using 96.93% CPU
+Optimizing NNI: done in 2.74277 secs using 96.85% CPU
+Optimizing NNI: done in 2.79055 secs using 96.62% CPU
+Iteration 190 / LogL: -32456.609 / Time: 0h:10m:1s (0h:5m:8s left)
+Optimizing NNI: done in 2.5447 secs using 96.9% CPU
+Optimizing NNI: done in 2.21868 secs using 96.34% CPU
+Optimizing NNI: done in 2.58934 secs using 96.68% CPU
+Optimizing NNI: done in 2.40147 secs using 96.48% CPU
+Optimizing NNI: done in 2.66119 secs using 96.99% CPU
+Optimizing NNI: done in 2.37518 secs using 96.19% CPU
+Optimizing NNI: done in 2.48327 secs using 96.75% CPU
+Optimizing NNI: done in 2.57124 secs using 97.36% CPU
+Optimizing NNI: done in 2.70399 secs using 96.92% CPU
+Optimizing NNI: done in 2.3412 secs using 97.16% CPU
+Iteration 200 / LogL: -32461.246 / Time: 0h:10m:26s (0h:4m:34s left)
+Optimizing NNI: done in 2.58723 secs using 97.53% CPU
+Optimizing NNI: done in 2.28792 secs using 96.36% CPU
+Optimizing NNI: done in 3.01706 secs using 96.62% CPU
+Optimizing NNI: done in 2.58824 secs using 97.18% CPU
+Optimizing NNI: done in 2.30336 secs using 96.77% CPU
+Optimizing NNI: done in 2.93109 secs using 96.77% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 206: -32442.070
+Optimizing NNI: done in 2.84847 secs using 96.96% CPU
+Optimizing NNI: done in 2.60023 secs using 96.5% CPU
+Optimizing NNI: done in 2.31421 secs using 96.96% CPU
+Optimizing NNI: done in 2.52783 secs using 97.31% CPU
+Iteration 210 / LogL: -32498.622 / Time: 0h:10m:55s (0h:5m:1s left)
+Optimizing NNI: done in 2.73851 secs using 96.56% CPU
+Optimizing NNI: done in 2.75876 secs using 96.76% CPU
+Optimizing NNI: done in 2.39735 secs using 96.35% CPU
+Optimizing NNI: done in 2.82587 secs using 96.69% CPU
+Optimizing NNI: done in 2.43454 secs using 97.18% CPU
+Optimizing NNI: done in 2.97899 secs using 96.98% CPU
+Optimizing NNI: done in 2.32941 secs using 96.29% CPU
+Optimizing NNI: done in 2.61277 secs using 96.86% CPU
+Optimizing NNI: done in 2.55666 secs using 97.34% CPU
+Optimizing NNI: done in 2.75072 secs using 96.06% CPU
+Iteration 220 / LogL: -32465.881 / Time: 0h:11m:22s (0h:4m:28s left)
+Optimizing NNI: done in 2.48491 secs using 96.43% CPU
+Optimizing NNI: done in 2.3834 secs using 96.87% CPU
+Optimizing NNI: done in 2.47474 secs using 96.86% CPU
+Optimizing NNI: done in 2.57128 secs using 96.23% CPU
+Optimizing NNI: done in 2.61641 secs using 96.37% CPU
+Optimizing NNI: done in 2.7721 secs using 97.24% CPU
+Optimizing NNI: done in 2.52487 secs using 96.36% CPU
+Optimizing NNI: done in 2.49592 secs using 97.12% CPU
+Optimizing NNI: done in 2.48249 secs using 96.67% CPU
+Optimizing NNI: done in 2.59311 secs using 96.61% CPU
+Iteration 230 / LogL: -32470.584 / Time: 0h:11m:48s (0h:3m:55s left)
+Optimizing NNI: done in 2.49457 secs using 96.68% CPU
+Optimizing NNI: done in 2.39003 secs using 96.76% CPU
+Optimizing NNI: done in 2.65106 secs using 96.75% CPU
+Optimizing NNI: done in 2.64159 secs using 96.44% CPU
+Optimizing NNI: done in 2.65276 secs using 96.79% CPU
+Optimizing NNI: done in 2.37513 secs using 96.82% CPU
+Optimizing NNI: done in 2.62314 secs using 97.02% CPU
+Optimizing NNI: done in 2.53739 secs using 96.77% CPU
+Optimizing NNI: done in 2.32645 secs using 96.63% CPU
+Optimizing NNI: done in 2.57337 secs using 96.27% CPU
+Iteration 240 / LogL: -32478.098 / Time: 0h:12m:14s (0h:3m:22s left)
+Optimizing NNI: done in 2.77552 secs using 97.1% CPU
+Optimizing NNI: done in 2.17233 secs using 96.82% CPU
+Optimizing NNI: done in 2.56035 secs using 96.8% CPU
+Optimizing NNI: done in 2.56653 secs using 96.46% CPU
+Optimizing NNI: done in 2.63676 secs using 96.89% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 245: -32434.208
+Optimizing NNI: done in 2.55421 secs using 96.72% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 246: -32423.978
+Optimizing NNI: done in 2.33084 secs using 96.25% CPU
+Optimizing NNI: done in 2.75859 secs using 96.98% CPU
+Optimizing NNI: done in 2.43693 secs using 97.18% CPU
+Optimizing NNI: done in 2.38857 secs using 96.21% CPU
+Iteration 250 / LogL: -32460.542 / Time: 0h:12m:42s (0h:4m:53s left)
+Optimizing NNI: done in 2.4779 secs using 96.94% CPU
+Optimizing NNI: done in 2.42012 secs using 96.46% CPU
+Optimizing NNI: done in 2.61182 secs using 97.28% CPU
+Optimizing NNI: done in 2.43664 secs using 96.45% CPU
+Optimizing NNI: done in 2.55851 secs using 97.19% CPU
+Optimizing NNI: done in 2.65815 secs using 97.4% CPU
+Optimizing NNI: done in 2.51978 secs using 96.67% CPU
+Optimizing NNI: done in 2.28332 secs using 97.05% CPU
+Optimizing NNI: done in 2.46717 secs using 96.16% CPU
+Optimizing NNI: done in 2.72603 secs using 95.96% CPU
+Iteration 260 / LogL: -32461.089 / Time: 0h:13m:8s (0h:4m:21s left)
+Optimizing NNI: done in 2.38591 secs using 97% CPU
+Optimizing NNI: done in 2.5901 secs using 97.45% CPU
+Optimizing NNI: done in 2.51215 secs using 97.22% CPU
+Optimizing NNI: done in 2.58181 secs using 96.9% CPU
+Optimizing NNI: done in 2.68284 secs using 96.45% CPU
+Optimizing NNI: done in 2.68304 secs using 96.79% CPU
+Optimizing NNI: done in 2.31498 secs using 96.92% CPU
+Optimizing NNI: done in 2.99738 secs using 96.87% CPU
+Optimizing NNI: done in 2.53022 secs using 96.57% CPU
+Optimizing NNI: done in 2.70607 secs using 96.52% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 270: -32423.312
+Iteration 270 / LogL: -32423.312 / Time: 0h:13m:37s (0h:5m:3s left)
+Optimizing NNI: done in 2.79379 secs using 96.62% CPU
+Optimizing NNI: done in 2.56033 secs using 97.07% CPU
+Optimizing NNI: done in 2.62114 secs using 96.76% CPU
+Optimizing NNI: done in 2.28373 secs using 96.53% CPU
+Optimizing NNI: done in 2.28463 secs using 96.75% CPU
+Optimizing NNI: done in 2.60882 secs using 96.55% CPU
+Optimizing NNI: done in 2.21224 secs using 97.28% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 277: -32422.977
+Optimizing NNI: done in 2.62366 secs using 97.1% CPU
+Optimizing NNI: done in 2.31186 secs using 96.96% CPU
+Optimizing NNI: done in 2.42215 secs using 97.25% CPU
+Iteration 280 / LogL: -32467.433 / Time: 0h:14m:5s (0h:4m:53s left)
+Optimizing NNI: done in 3.02194 secs using 96.92% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 281: -32416.873
+Optimizing NNI: done in 2.45636 secs using 96.96% CPU
+Optimizing NNI: done in 2.69632 secs using 96.47% CPU
+Optimizing NNI: done in 2.55446 secs using 96.21% CPU
+Optimizing NNI: done in 2.33653 secs using 96.77% CPU
+Optimizing NNI: done in 2.6401 secs using 97.04% CPU
+Optimizing NNI: done in 2.56616 secs using 96.34% CPU
+Optimizing NNI: done in 2.50344 secs using 96.45% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 288: -32413.101
+Optimizing NNI: done in 2.25567 secs using 97.2% CPU
+Optimizing NNI: done in 2.55751 secs using 96.8% CPU
+Iteration 290 / LogL: -32424.723 / Time: 0h:14m:34s (0h:4m:56s left)
+Optimizing NNI: done in 2.66804 secs using 96.47% CPU
+Optimizing NNI: done in 2.55941 secs using 96.57% CPU
+Optimizing NNI: done in 2.38365 secs using 96.83% CPU
+Optimizing NNI: done in 2.27859 secs using 97% CPU
+Optimizing NNI: done in 2.40059 secs using 96.48% CPU
+Optimizing NNI: done in 2.75893 secs using 96.62% CPU
+Optimizing NNI: done in 2.27937 secs using 96.7% CPU
+Optimizing NNI: done in 2.85239 secs using 96.61% CPU
+Optimizing NNI: done in 2.5217 secs using 96.4% CPU
+Optimizing NNI: done in 2.39501 secs using 96.39% CPU
+Iteration 300 / LogL: -32446.229 / Time: 0h:14m:59s (0h:4m:24s left)
+Optimizing NNI: done in 2.48838 secs using 96.75% CPU
+Optimizing NNI: done in 2.68251 secs using 97.12% CPU
+Optimizing NNI: done in 2.79677 secs using 96.8% CPU
+Optimizing NNI: done in 2.40566 secs using 97.36% CPU
+Optimizing NNI: done in 2.37825 secs using 96.95% CPU
+Optimizing NNI: done in 2.73171 secs using 96.47% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 306: -32412.679
+Optimizing NNI: done in 2.46734 secs using 96.69% CPU
+Optimizing NNI: done in 2.89744 secs using 96.73% CPU
+Optimizing NNI: done in 2.41393 secs using 97.16% CPU
+Optimizing NNI: done in 2.04176 secs using 96.78% CPU
+Iteration 310 / LogL: -32446.635 / Time: 0h:15m:27s (0h:4m:48s left)
+Optimizing NNI: done in 2.44044 secs using 96.61% CPU
+Optimizing NNI: done in 2.35481 secs using 96.37% CPU
+Optimizing NNI: done in 2.66754 secs using 96.84% CPU
+Optimizing NNI: done in 2.272 secs using 95.94% CPU
+Optimizing NNI: done in 2.24039 secs using 97.36% CPU
+Optimizing NNI: done in 2.64338 secs using 97.01% CPU
+Optimizing NNI: done in 2.42322 secs using 96.55% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 317: -32405.573
+Optimizing NNI: done in 2.63593 secs using 97.11% CPU
+Optimizing NNI: done in 2.46395 secs using 96.97% CPU
+Optimizing NNI: done in 2.49338 secs using 96.44% CPU
+Iteration 320 / LogL: -32423.350 / Time: 0h:15m:54s (0h:4m:50s left)
+Optimizing NNI: done in 2.40434 secs using 97.19% CPU
+Optimizing NNI: done in 2.31337 secs using 96.66% CPU
+Optimizing NNI: done in 2.56243 secs using 97% CPU
+Optimizing NNI: done in 2.47944 secs using 96.9% CPU
+Optimizing NNI: done in 2.64008 secs using 96.81% CPU
+Optimizing NNI: done in 2.47781 secs using 96.94% CPU
+Optimizing NNI: done in 2.80031 secs using 97.13% CPU
+Optimizing NNI: done in 2.51684 secs using 96.75% CPU
+Optimizing NNI: done in 2.27378 secs using 96.69% CPU
+Optimizing NNI: done in 2.39477 secs using 97.26% CPU
+Iteration 330 / LogL: -32436.626 / Time: 0h:16m:19s (0h:4m:19s left)
+Optimizing NNI: done in 2.47321 secs using 96.33% CPU
+Optimizing NNI: done in 2.32661 secs using 96.93% CPU
+Optimizing NNI: done in 2.58882 secs using 97.18% CPU
+Optimizing NNI: done in 3.16798 secs using 96.77% CPU
+Optimizing NNI: done in 2.28269 secs using 96.05% CPU
+Optimizing NNI: done in 2.44455 secs using 97.27% CPU
+Optimizing NNI: done in 2.7652 secs using 96.15% CPU
+Optimizing NNI: done in 2.66789 secs using 96.51% CPU
+Optimizing NNI: done in 2.42407 secs using 97.42% CPU
+Optimizing NNI: done in 2.54357 secs using 96.55% CPU
+Iteration 340 / LogL: -32429.802 / Time: 0h:16m:46s (0h:3m:48s left)
+Optimizing NNI: done in 2.8466 secs using 96.71% CPU
+Optimizing NNI: done in 2.5696 secs using 96.35% CPU
+Optimizing NNI: done in 2.51721 secs using 97.23% CPU
+Optimizing NNI: done in 2.33288 secs using 96.55% CPU
+Optimizing NNI: done in 2.10368 secs using 97.15% CPU
+Optimizing NNI: done in 2.57544 secs using 96.74% CPU
+Optimizing NNI: done in 2.61891 secs using 96.9% CPU
+Optimizing NNI: done in 2.477 secs using 96.22% CPU
+Optimizing NNI: done in 2.53887 secs using 97.29% CPU
+Optimizing NNI: done in 2.2837 secs using 96.49% CPU
+Iteration 350 / LogL: -32442.907 / Time: 0h:17m:11s (0h:3m:18s left)
+Optimizing NNI: done in 2.25508 secs using 96.98% CPU
+Optimizing NNI: done in 2.894 secs using 96.25% CPU
+Optimizing NNI: done in 2.37173 secs using 96.35% CPU
+Optimizing NNI: done in 2.99331 secs using 96.2% CPU
+Optimizing NNI: done in 2.36516 secs using 96.43% CPU
+Optimizing NNI: done in 2.75772 secs using 96.8% CPU
+Optimizing NNI: done in 2.92366 secs using 97.07% CPU
+Optimizing NNI: done in 2.59035 secs using 96.45% CPU
+Optimizing NNI: done in 2.68417 secs using 96.6% CPU
+Optimizing NNI: done in 2.29202 secs using 96.58% CPU
+Iteration 360 / LogL: -32420.751 / Time: 0h:17m:38s (0h:2m:48s left)
+Optimizing NNI: done in 2.74243 secs using 97.36% CPU
+Optimizing NNI: done in 2.26962 secs using 96.9% CPU
+Optimizing NNI: done in 2.42262 secs using 96.84% CPU
+Optimizing NNI: done in 2.5392 secs using 96.89% CPU
+Optimizing NNI: done in 2.55451 secs using 96.68% CPU
+Optimizing NNI: done in 2.51856 secs using 96.39% CPU
+Optimizing NNI: done in 2.44721 secs using 96.74% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 367: -32402.107
+Optimizing NNI: done in 2.44807 secs using 96.91% CPU
+Optimizing NNI: done in 2.8705 secs using 97.5% CPU
+Optimizing NNI: done in 2.55407 secs using 96.91% CPU
+Iteration 370 / LogL: -32424.102 / Time: 0h:18m:7s (0h:4m:45s left)
+Optimizing NNI: done in 2.69917 secs using 96.66% CPU
+Optimizing NNI: done in 2.31662 secs using 96.83% CPU
+Optimizing NNI: done in 2.29849 secs using 96.42% CPU
+Optimizing NNI: done in 3.20654 secs using 96.71% CPU
+Optimizing NNI: done in 2.17194 secs using 97.19% CPU
+Optimizing NNI: done in 2.59479 secs using 96.42% CPU
+Optimizing NNI: done in 2.75604 secs using 97.05% CPU
+Optimizing NNI: done in 3.04894 secs using 96.72% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 378: -32401.688
+Optimizing NNI: done in 2.67134 secs using 97.18% CPU
+Optimizing NNI: done in 2.81429 secs using 96.93% CPU
+Iteration 380 / LogL: -32436.215 / Time: 0h:18m:36s (0h:4m:48s left)
+Optimizing NNI: done in 2.49233 secs using 96.68% CPU
+Optimizing NNI: done in 2.42278 secs using 96.34% CPU
+Optimizing NNI: done in 2.53489 secs using 96.77% CPU
+Optimizing NNI: done in 3.04312 secs using 96.42% CPU
+Optimizing NNI: done in 2.66377 secs using 96.92% CPU
+Optimizing NNI: done in 2.87977 secs using 96.47% CPU
+Optimizing NNI: done in 2.40777 secs using 96.36% CPU
+Optimizing NNI: done in 2.33787 secs using 96.13% CPU
+Optimizing NNI: done in 2.65199 secs using 96.49% CPU
+Optimizing NNI: done in 2.94989 secs using 97.26% CPU
+Iteration 390 / LogL: -32430.071 / Time: 0h:19m:3s (0h:4m:18s left)
+Optimizing NNI: done in 2.46742 secs using 97.13% CPU
+Optimizing NNI: done in 2.49743 secs using 97.17% CPU
+Optimizing NNI: done in 2.68198 secs using 96.19% CPU
+Optimizing NNI: done in 2.43791 secs using 96.73% CPU
+Optimizing NNI: done in 2.35511 secs using 96.63% CPU
+Optimizing NNI: done in 2.73995 secs using 96.7% CPU
+Optimizing NNI: done in 2.81759 secs using 96.86% CPU
+Optimizing NNI: done in 2.57586 secs using 96.74% CPU
+Optimizing NNI: done in 2.67667 secs using 97.53% CPU
+Optimizing NNI: done in 2.35525 secs using 96.54% CPU
+Iteration 400 / LogL: -32412.239 / Time: 0h:19m:30s (0h:3m:48s left)
+Optimizing NNI: done in 2.45127 secs using 96.59% CPU
+Optimizing NNI: done in 2.51446 secs using 96.67% CPU
+Optimizing NNI: done in 2.38062 secs using 96.95% CPU
+Optimizing NNI: done in 2.80818 secs using 96.99% CPU
+Optimizing NNI: done in 2.80443 secs using 96.92% CPU
+Optimizing NNI: done in 2.41632 secs using 97% CPU
+Optimizing NNI: done in 2.31856 secs using 96.45% CPU
+Optimizing NNI: done in 2.48603 secs using 96.95% CPU
+Optimizing NNI: done in 2.48164 secs using 96.79% CPU
+Optimizing NNI: done in 2.5985 secs using 96.92% CPU
+Iteration 410 / LogL: -32411.214 / Time: 0h:19m:55s (0h:3m:18s left)
+Optimizing NNI: done in 2.64649 secs using 97.16% CPU
+Optimizing NNI: done in 2.58308 secs using 96.75% CPU
+Optimizing NNI: done in 2.51299 secs using 96.98% CPU
+Optimizing NNI: done in 2.37141 secs using 96.82% CPU
+Optimizing NNI: done in 2.78751 secs using 97.22% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 415: -32395.959
+Optimizing NNI: done in 2.26301 secs using 96.63% CPU
+Optimizing NNI: done in 2.46393 secs using 96.93% CPU
+Optimizing NNI: done in 2.41374 secs using 96.33% CPU
+Optimizing NNI: done in 2.5632 secs using 96.26% CPU
+Optimizing NNI: done in 2.49516 secs using 97.4% CPU
+Iteration 420 / LogL: -32407.950 / Time: 0h:20m:23s (0h:4m:37s left)
+Optimizing NNI: done in 2.51908 secs using 96.91% CPU
+Optimizing NNI: done in 2.46435 secs using 97.17% CPU
+Optimizing NNI: done in 2.55554 secs using 96.29% CPU
+Optimizing NNI: done in 2.49345 secs using 96.76% CPU
+Optimizing NNI: done in 2.48008 secs using 96.58% CPU
+Optimizing NNI: done in 2.23203 secs using 97.26% CPU
+Optimizing NNI: done in 2.54907 secs using 96.79% CPU
+Optimizing NNI: done in 2.56291 secs using 96.92% CPU
+Optimizing NNI: done in 2.59221 secs using 96.8% CPU
+Optimizing NNI: done in 2.2195 secs using 96.21% CPU
+Iteration 430 / LogL: -32437.301 / Time: 0h:20m:49s (0h:4m:7s left)
+Optimizing NNI: done in 2.46056 secs using 96.6% CPU
+Optimizing NNI: done in 2.49033 secs using 96.92% CPU
+Optimizing NNI: done in 2.294 secs using 96.89% CPU
+Optimizing NNI: done in 2.43963 secs using 96.61% CPU
+Optimizing NNI: done in 2.28248 secs using 96.57% CPU
+Optimizing NNI: done in 2.23343 secs using 96.01% CPU
+Optimizing NNI: done in 2.6236 secs using 96.57% CPU
+Optimizing NNI: done in 2.4341 secs using 96.11% CPU
+Optimizing NNI: done in 2.53147 secs using 96.65% CPU
+Optimizing NNI: done in 2.56292 secs using 97.04% CPU
+Iteration 440 / LogL: -32416.540 / Time: 0h:21m:14s (0h:3m:37s left)
+Optimizing NNI: done in 2.4471 secs using 96.83% CPU
+Optimizing NNI: done in 2.49134 secs using 96.2% CPU
+Optimizing NNI: done in 2.44692 secs using 96.5% CPU
+Optimizing NNI: done in 3.00067 secs using 96.64% CPU
+Optimizing NNI: done in 2.62192 secs using 97.21% CPU
+Optimizing NNI: done in 2.73901 secs using 96.52% CPU
+Optimizing NNI: done in 2.62356 secs using 96.99% CPU
+Optimizing NNI: done in 2.66933 secs using 96.66% CPU
+Optimizing NNI: done in 2.39786 secs using 96.18% CPU
+Optimizing NNI: done in 2.34562 secs using 96.7% CPU
+Iteration 450 / LogL: -32421.517 / Time: 0h:21m:40s (0h:3m:8s left)
+Optimizing NNI: done in 2.50206 secs using 97.49% CPU
+Optimizing NNI: done in 2.32942 secs using 97.62% CPU
+Optimizing NNI: done in 2.40916 secs using 96.24% CPU
+Optimizing NNI: done in 2.48695 secs using 96.91% CPU
+Optimizing NNI: done in 2.30831 secs using 96.95% CPU
+Optimizing NNI: done in 2.3639 secs using 96.34% CPU
+Optimizing NNI: done in 2.49201 secs using 98.04% CPU
+Optimizing NNI: done in 2.55278 secs using 96.6% CPU
+Optimizing NNI: done in 2.57887 secs using 97.63% CPU
+Optimizing NNI: done in 2.64779 secs using 96.78% CPU
+Iteration 460 / LogL: -32412.473 / Time: 0h:22m:5s (0h:2m:38s left)
+Optimizing NNI: done in 2.91721 secs using 96.62% CPU
+Optimizing NNI: done in 2.68046 secs using 96.67% CPU
+Optimizing NNI: done in 2.54308 secs using 96.74% CPU
+Optimizing NNI: done in 2.48918 secs using 97.12% CPU
+Optimizing NNI: done in 2.61882 secs using 96.33% CPU
+Optimizing NNI: done in 2.58327 secs using 96.63% CPU
+Optimizing NNI: done in 2.38811 secs using 96.75% CPU
+Optimizing NNI: done in 2.55814 secs using 96.25% CPU
+Optimizing NNI: done in 2.93139 secs using 97.38% CPU
+Optimizing NNI: done in 2.67015 secs using 96.85% CPU
+Iteration 470 / LogL: -32420.898 / Time: 0h:22m:32s (0h:2m:9s left)
+Optimizing NNI: done in 2.90362 secs using 97.01% CPU
+Optimizing NNI: done in 2.77382 secs using 96.6% CPU
+Optimizing NNI: done in 2.51369 secs using 96.94% CPU
+Optimizing NNI: done in 2.52458 secs using 96.96% CPU
+Optimizing NNI: done in 2.52397 secs using 96.2% CPU
+Optimizing NNI: done in 2.28857 secs using 96.41% CPU
+Optimizing NNI: done in 2.65022 secs using 97.01% CPU
+Optimizing NNI: done in 2.13822 secs using 96.87% CPU
+Optimizing NNI: done in 2.73233 secs using 96.8% CPU
+Optimizing NNI: done in 2.44549 secs using 96.5% CPU
+Iteration 480 / LogL: -32410.467 / Time: 0h:22m:59s (0h:1m:40s left)
+Optimizing NNI: done in 2.66638 secs using 97.48% CPU
+Optimizing NNI: done in 2.15665 secs using 97.59% CPU
+Optimizing NNI: done in 2.56706 secs using 97.04% CPU
+Optimizing NNI: done in 2.81937 secs using 97% CPU
+Optimizing NNI: done in 2.37867 secs using 96.99% CPU
+Optimizing NNI: done in 2.45543 secs using 96.71% CPU
+Optimizing NNI: done in 2.56016 secs using 96.68% CPU
+Optimizing NNI: done in 2.82604 secs using 96.87% CPU
+Optimizing NNI: done in 2.61851 secs using 96.64% CPU
+Optimizing NNI: done in 2.65223 secs using 97.32% CPU
+Iteration 490 / LogL: -32403.706 / Time: 0h:23m:25s (0h:1m:11s left)
+Optimizing NNI: done in 2.54089 secs using 96.74% CPU
+Optimizing NNI: done in 2.87407 secs using 96.99% CPU
+Optimizing NNI: done in 2.48847 secs using 96.71% CPU
+Optimizing NNI: done in 2.89602 secs using 96.63% CPU
+Optimizing NNI: done in 2.25898 secs using 97.11% CPU
+Optimizing NNI: done in 2.25313 secs using 96.04% CPU
+Optimizing NNI: done in 2.29888 secs using 96.51% CPU
+Optimizing NNI: done in 2.36387 secs using 97.23% CPU
+Optimizing NNI: done in 2.20391 secs using 96.68% CPU
+Optimizing NNI: done in 2.72633 secs using 96.76% CPU
+Iteration 500 / LogL: -32469.303 / Time: 0h:23m:51s (0h:0m:43s left)
+Optimizing NNI: done in 2.54531 secs using 96.43% CPU
+Optimizing NNI: done in 2.43981 secs using 96.49% CPU
+Optimizing NNI: done in 2.56885 secs using 96.34% CPU
+Optimizing NNI: done in 2.4415 secs using 96.25% CPU
+Optimizing NNI: done in 2.67917 secs using 96.82% CPU
+Optimizing NNI: done in 2.71123 secs using 96.89% CPU
+Optimizing NNI: done in 2.20702 secs using 96.78% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 507: -32392.401
+Optimizing NNI: done in 2.517 secs using 96.83% CPU
+Optimizing NNI: done in 2.7216 secs using 96.83% CPU
+Optimizing NNI: done in 2.65945 secs using 96.5% CPU
+Iteration 510 / LogL: -32405.045 / Time: 0h:24m:19s (0h:4m:38s left)
+Optimizing NNI: done in 2.59161 secs using 96.76% CPU
+Optimizing NNI: done in 2.38605 secs using 97% CPU
+Optimizing NNI: done in 2.78039 secs using 97.11% CPU
+Optimizing NNI: done in 2.8876 secs using 96.76% CPU
+Optimizing NNI: done in 2.44309 secs using 97.15% CPU
+Optimizing NNI: done in 2.41424 secs using 96.58% CPU
+Optimizing NNI: done in 2.59316 secs using 96.45% CPU
+Optimizing NNI: done in 2.30078 secs using 96.73% CPU
+Optimizing NNI: done in 2.80152 secs using 97.16% CPU
+Optimizing NNI: done in 2.75086 secs using 96.32% CPU
+Iteration 520 / LogL: -32417.096 / Time: 0h:24m:46s (0h:4m:9s left)
+Optimizing NNI: done in 2.20933 secs using 96.06% CPU
+Optimizing NNI: done in 2.2485 secs using 96.52% CPU
+Optimizing NNI: done in 2.46737 secs using 96.28% CPU
+Optimizing NNI: done in 2.43595 secs using 96.57% CPU
+Optimizing NNI: done in 2.89 secs using 96.48% CPU
+Optimizing NNI: done in 2.972 secs using 97.14% CPU
+Optimizing NNI: done in 2.37662 secs using 96.49% CPU
+Optimizing NNI: done in 2.41377 secs using 96.5% CPU
+Optimizing NNI: done in 2.53015 secs using 96.45% CPU
+Optimizing NNI: done in 2.57519 secs using 97.4% CPU
+Iteration 530 / LogL: -32418.531 / Time: 0h:25m:12s (0h:3m:40s left)
+Optimizing NNI: done in 2.56413 secs using 96.22% CPU
+Optimizing NNI: done in 2.5917 secs using 96.72% CPU
+Optimizing NNI: done in 3.15704 secs using 97.11% CPU
+Optimizing NNI: done in 2.84639 secs using 96.64% CPU
+Optimizing NNI: done in 2.49137 secs using 97.2% CPU
+Optimizing NNI: done in 2.5598 secs using 96.92% CPU
+Optimizing NNI: done in 2.6376 secs using 96.77% CPU
+Optimizing NNI: done in 2.40114 secs using 96.35% CPU
+Optimizing NNI: done in 3.09983 secs using 96.58% CPU
+Optimizing NNI: done in 2.3184 secs using 97.01% CPU
+Iteration 540 / LogL: -32457.437 / Time: 0h:25m:39s (0h:3m:11s left)
+Optimizing NNI: done in 2.73246 secs using 96.73% CPU
+Optimizing NNI: done in 2.50485 secs using 96.89% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 542: -32389.840
+Optimizing NNI: done in 2.63949 secs using 96.1% CPU
+Optimizing NNI: done in 2.61353 secs using 97.05% CPU
+Optimizing NNI: done in 2.40395 secs using 97.31% CPU
+Optimizing NNI: done in 2.59044 secs using 96.91% CPU
+Optimizing NNI: done in 2.62426 secs using 96.57% CPU
+Optimizing NNI: done in 2.5309 secs using 96.69% CPU
+Optimizing NNI: done in 2.8605 secs using 96.73% CPU
+Optimizing NNI: done in 3.08193 secs using 96.98% CPU
+Iteration 550 / LogL: -32397.021 / Time: 0h:26m:8s (0h:4m:22s left)
+Optimizing NNI: done in 2.84954 secs using 96.47% CPU
+Optimizing NNI: done in 2.43358 secs using 96.44% CPU
+Optimizing NNI: done in 2.27266 secs using 96.6% CPU
+Optimizing NNI: done in 2.55069 secs using 96.55% CPU
+Optimizing NNI: done in 2.43886 secs using 97.18% CPU
+Optimizing NNI: done in 2.63141 secs using 96.8% CPU
+Optimizing NNI: done in 2.80058 secs using 97.05% CPU
+Optimizing NNI: done in 2.69405 secs using 95.84% CPU
+Optimizing NNI: done in 2.46746 secs using 96.61% CPU
+Optimizing NNI: done in 2.14631 secs using 96.41% CPU
+Iteration 560 / LogL: -32431.545 / Time: 0h:26m:34s (0h:3m:53s left)
+Optimizing NNI: done in 2.13626 secs using 96.35% CPU
+Optimizing NNI: done in 2.58559 secs using 97.22% CPU
+Optimizing NNI: done in 2.68211 secs using 96.64% CPU
+Optimizing NNI: done in 2.42382 secs using 97.46% CPU
+Optimizing NNI: done in 2.39186 secs using 96.63% CPU
+Optimizing NNI: done in 2.33903 secs using 96.65% CPU
+Optimizing NNI: done in 2.88026 secs using 97.27% CPU
+Optimizing NNI: done in 2.56445 secs using 96.61% CPU
+Optimizing NNI: done in 2.4656 secs using 96.89% CPU
+Optimizing NNI: done in 2.70458 secs using 96.63% CPU
+Iteration 570 / LogL: -32410.815 / Time: 0h:27m:0s (0h:3m:25s left)
+Optimizing NNI: done in 2.67012 secs using 96.85% CPU
+Optimizing NNI: done in 2.33539 secs using 97.11% CPU
+Optimizing NNI: done in 2.84457 secs using 96.82% CPU
+Optimizing NNI: done in 2.63474 secs using 96.92% CPU
+Optimizing NNI: done in 2.30467 secs using 97.16% CPU
+Optimizing NNI: done in 2.50319 secs using 96.65% CPU
+Optimizing NNI: done in 2.77192 secs using 96.34% CPU
+Optimizing NNI: done in 2.90691 secs using 96.81% CPU
+Optimizing NNI: done in 2.78589 secs using 96.83% CPU
+Optimizing NNI: done in 2.3648 secs using 96.77% CPU
+Iteration 580 / LogL: -32403.430 / Time: 0h:27m:27s (0h:2m:56s left)
+Optimizing NNI: done in 2.49217 secs using 96.4% CPU
+Optimizing NNI: done in 2.47082 secs using 96.77% CPU
+Optimizing NNI: done in 2.41976 secs using 96.71% CPU
+Optimizing NNI: done in 2.21204 secs using 96.11% CPU
+Optimizing NNI: done in 2.59288 secs using 96.41% CPU
+Optimizing NNI: done in 2.77118 secs using 96.99% CPU
+Optimizing NNI: done in 2.43991 secs using 96.45% CPU
+Optimizing NNI: done in 2.44195 secs using 96.57% CPU
+Optimizing NNI: done in 2.57045 secs using 96.62% CPU
+Optimizing NNI: done in 2.44967 secs using 96.02% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 590: -32389.492
+Iteration 590 / LogL: -32389.492 / Time: 0h:27m:54s (0h:4m:44s left)
+Optimizing NNI: done in 2.57269 secs using 96.7% CPU
+Optimizing NNI: done in 2.39945 secs using 97.47% CPU
+Optimizing NNI: done in 2.66634 secs using 96.1% CPU
+Optimizing NNI: done in 2.74627 secs using 96.82% CPU
+Optimizing NNI: done in 2.61603 secs using 96.9% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 595: -32389.304
+Optimizing NNI: done in 2.61776 secs using 96.52% CPU
+Optimizing NNI: done in 2.5644 secs using 96.42% CPU
+Optimizing NNI: done in 2.64824 secs using 96.94% CPU
+Optimizing NNI: done in 2.49773 secs using 96.77% CPU
+Optimizing NNI: done in 2.38335 secs using 97.04% CPU
+Iteration 600 / LogL: -32411.143 / Time: 0h:28m:23s (0h:4m:30s left)
+Optimizing NNI: done in 2.40471 secs using 96.94% CPU
+Optimizing NNI: done in 2.38191 secs using 97.04% CPU
+Optimizing NNI: done in 2.47235 secs using 96.17% CPU
+Optimizing NNI: done in 2.77076 secs using 96.84% CPU
+Optimizing NNI: done in 2.67666 secs using 96.71% CPU
+Optimizing NNI: done in 2.34768 secs using 96.7% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 606: -32388.814
+Optimizing NNI: done in 2.63324 secs using 96.62% CPU
+Optimizing NNI: done in 2.49327 secs using 96.8% CPU
+Optimizing NNI: done in 2.7977 secs using 96.09% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 609: -32386.768
+Optimizing NNI: done in 2.23639 secs using 96.68% CPU
+Iteration 610 / LogL: -32407.434 / Time: 0h:28m:53s (0h:4m:41s left)
+Optimizing NNI: done in 2.33635 secs using 97.24% CPU
+Optimizing NNI: done in 2.63831 secs using 96.7% CPU
+Optimizing NNI: done in 2.40968 secs using 96.74% CPU
+Optimizing NNI: done in 2.53657 secs using 96.65% CPU
+Optimizing NNI: done in 2.87221 secs using 96.46% CPU
+Optimizing NNI: done in 2.59618 secs using 97.15% CPU
+Optimizing NNI: done in 2.57593 secs using 96.86% CPU
+Optimizing NNI: done in 2.4234 secs using 96.88% CPU
+Optimizing NNI: done in 2.4711 secs using 96.81% CPU
+Optimizing NNI: done in 2.46155 secs using 96.8% CPU
+Iteration 620 / LogL: -32417.264 / Time: 0h:29m:19s (0h:4m:13s left)
+Optimizing NNI: done in 2.59538 secs using 97.03% CPU
+Optimizing NNI: done in 2.77758 secs using 96.64% CPU
+Optimizing NNI: done in 2.37298 secs using 96.06% CPU
+Optimizing NNI: done in 2.65882 secs using 96.46% CPU
+Optimizing NNI: done in 2.57651 secs using 96.32% CPU
+Optimizing NNI: done in 2.46536 secs using 96.77% CPU
+Optimizing NNI: done in 2.57782 secs using 96.51% CPU
+Optimizing NNI: done in 2.52098 secs using 96.52% CPU
+Optimizing NNI: done in 2.5607 secs using 96.29% CPU
+Optimizing NNI: done in 2.57501 secs using 96.74% CPU
+Iteration 630 / LogL: -32410.717 / Time: 0h:29m:46s (0h:3m:44s left)
+Optimizing NNI: done in 2.77386 secs using 96.78% CPU
+Optimizing NNI: done in 2.49182 secs using 96.4% CPU
+Optimizing NNI: done in 2.56162 secs using 97.04% CPU
+Optimizing NNI: done in 2.34501 secs using 97% CPU
+Optimizing NNI: done in 2.58304 secs using 96.87% CPU
+Optimizing NNI: done in 2.73189 secs using 96.8% CPU
+Optimizing NNI: done in 2.55006 secs using 96.67% CPU
+Optimizing NNI: done in 2.58733 secs using 96.45% CPU
+Optimizing NNI: done in 2.34737 secs using 95.68% CPU
+Optimizing NNI: done in 2.6021 secs using 95.89% CPU
+Iteration 640 / LogL: -32405.611 / Time: 0h:30m:12s (0h:3m:15s left)
+Optimizing NNI: done in 2.67524 secs using 96.48% CPU
+Optimizing NNI: done in 2.80155 secs using 96.59% CPU
+Optimizing NNI: done in 2.58044 secs using 96.55% CPU
+Optimizing NNI: done in 2.50254 secs using 96.09% CPU
+Optimizing NNI: done in 2.4449 secs using 96.91% CPU
+Optimizing NNI: done in 2.52688 secs using 96.92% CPU
+Optimizing NNI: done in 2.64029 secs using 97% CPU
+Optimizing NNI: done in 2.58827 secs using 96.99% CPU
+Optimizing NNI: done in 2.21523 secs using 95.66% CPU
+Optimizing NNI: done in 2.74757 secs using 97.51% CPU
+Iteration 650 / LogL: -32418.996 / Time: 0h:30m:38s (0h:2m:47s left)
+Optimizing NNI: done in 2.63781 secs using 96.66% CPU
+Optimizing NNI: done in 2.68069 secs using 96.6% CPU
+Optimizing NNI: done in 2.6665 secs using 96.62% CPU
+Optimizing NNI: done in 2.67526 secs using 96.63% CPU
+Optimizing NNI: done in 2.63495 secs using 96.96% CPU
+Optimizing NNI: done in 2.59661 secs using 96.84% CPU
+Optimizing NNI: done in 2.47085 secs using 96.81% CPU
+Optimizing NNI: done in 2.74881 secs using 96.86% CPU
+Optimizing NNI: done in 2.69856 secs using 96.8% CPU
+Optimizing NNI: done in 2.45345 secs using 96.63% CPU
+Iteration 660 / LogL: -32461.861 / Time: 0h:31m:5s (0h:2m:18s left)
+Optimizing NNI: done in 2.35112 secs using 96.66% CPU
+Optimizing NNI: done in 2.48522 secs using 96.71% CPU
+Optimizing NNI: done in 2.71172 secs using 96.56% CPU
+Optimizing NNI: done in 3.24038 secs using 96.71% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 664: -32376.369
+Optimizing NNI: done in 2.94 secs using 97.12% CPU
+Optimizing NNI: done in 2.45036 secs using 97.32% CPU
+Optimizing NNI: done in 2.27401 secs using 96.95% CPU
+Optimizing NNI: done in 2.44706 secs using 96.38% CPU
+Optimizing NNI: done in 2.25382 secs using 96.71% CPU
+Optimizing NNI: done in 2.37891 secs using 96.74% CPU
+Iteration 670 / LogL: -32398.784 / Time: 0h:31m:34s (0h:4m:26s left)
+Optimizing NNI: done in 2.5417 secs using 96.74% CPU
+Optimizing NNI: done in 2.71158 secs using 96.45% CPU
+Optimizing NNI: done in 2.53634 secs using 96.42% CPU
+Optimizing NNI: done in 2.27044 secs using 96.99% CPU
+Optimizing NNI: done in 2.52685 secs using 96.52% CPU
+Optimizing NNI: done in 2.54103 secs using 97.05% CPU
+Optimizing NNI: done in 2.56303 secs using 96.8% CPU
+Optimizing NNI: done in 2.38103 secs using 96.7% CPU
+Optimizing NNI: done in 2.34112 secs using 96.86% CPU
+Optimizing NNI: done in 2.61069 secs using 96.9% CPU
+Iteration 680 / LogL: -32395.762 / Time: 0h:31m:59s (0h:3m:57s left)
+Optimizing NNI: done in 2.40688 secs using 96.78% CPU
+Optimizing NNI: done in 2.48708 secs using 96.59% CPU
+Optimizing NNI: done in 2.51894 secs using 96.95% CPU
+Optimizing NNI: done in 3.05655 secs using 97.09% CPU
+Optimizing NNI: done in 2.29621 secs using 96.42% CPU
+Optimizing NNI: done in 2.42587 secs using 97.01% CPU
+Optimizing NNI: done in 2.73095 secs using 97.1% CPU
+Optimizing NNI: done in 2.61728 secs using 96.83% CPU
+Optimizing NNI: done in 2.73347 secs using 96.55% CPU
+Optimizing NNI: done in 2.46641 secs using 97.25% CPU
+Iteration 690 / LogL: -32398.838 / Time: 0h:32m:26s (0h:3m:29s left)
+Optimizing NNI: done in 2.32937 secs using 96.55% CPU
+Optimizing NNI: done in 2.36698 secs using 96.35% CPU
+Optimizing NNI: done in 2.34089 secs using 96.1% CPU
+Optimizing NNI: done in 2.4307 secs using 96.89% CPU
+Optimizing NNI: done in 2.5518 secs using 96.83% CPU
+Optimizing NNI: done in 2.43404 secs using 96.2% CPU
+Optimizing NNI: done in 2.3441 secs using 95.93% CPU
+Optimizing NNI: done in 2.47303 secs using 96.05% CPU
+Optimizing NNI: done in 2.32897 secs using 96.68% CPU
+Optimizing NNI: done in 2.36783 secs using 96.73% CPU
+Iteration 700 / LogL: -32410.546 / Time: 0h:32m:50s (0h:3m:0s left)
+Optimizing NNI: done in 2.48992 secs using 97.64% CPU
+Optimizing NNI: done in 2.60141 secs using 96.5% CPU
+Optimizing NNI: done in 2.59557 secs using 96.03% CPU
+Optimizing NNI: done in 2.45468 secs using 96.43% CPU
+Optimizing NNI: done in 2.60757 secs using 96.28% CPU
+Optimizing NNI: done in 2.41014 secs using 96.82% CPU
+Optimizing NNI: done in 2.58749 secs using 97.02% CPU
+Optimizing NNI: done in 2.52423 secs using 97.35% CPU
+Optimizing NNI: done in 2.39985 secs using 96.44% CPU
+Optimizing NNI: done in 2.39654 secs using 97.01% CPU
+Iteration 710 / LogL: -32390.793 / Time: 0h:33m:16s (0h:2m:32s left)
+Optimizing NNI: done in 2.39085 secs using 96.84% CPU
+Optimizing NNI: done in 2.50475 secs using 96.38% CPU
+Optimizing NNI: done in 2.53433 secs using 96.3% CPU
+Optimizing NNI: done in 2.63728 secs using 96.58% CPU
+Optimizing NNI: done in 2.20195 secs using 96.77% CPU
+Optimizing NNI: done in 2.4417 secs using 96.57% CPU
+Optimizing NNI: done in 2.63953 secs using 96.4% CPU
+Optimizing NNI: done in 2.72316 secs using 96.94% CPU
+Optimizing NNI: done in 2.64236 secs using 97.23% CPU
+Optimizing NNI: done in 2.287 secs using 96.36% CPU
+Iteration 720 / LogL: -32406.154 / Time: 0h:33m:42s (0h:2m:3s left)
+Optimizing NNI: done in 2.84049 secs using 96.28% CPU
+Optimizing NNI: done in 2.39621 secs using 96.39% CPU
+Optimizing NNI: done in 2.67476 secs using 96.82% CPU
+Optimizing NNI: done in 2.4199 secs using 96.42% CPU
+Optimizing NNI: done in 2.46799 secs using 95.84% CPU
+Optimizing NNI: done in 2.65089 secs using 97.13% CPU
+Optimizing NNI: done in 2.56178 secs using 96.69% CPU
+Optimizing NNI: done in 2.43708 secs using 96.32% CPU
+Optimizing NNI: done in 2.41405 secs using 96.54% CPU
+Optimizing NNI: done in 2.54873 secs using 96.16% CPU
+Iteration 730 / LogL: -32405.906 / Time: 0h:34m:8s (0h:1m:35s left)
+Optimizing NNI: done in 2.34589 secs using 95.98% CPU
+Optimizing NNI: done in 2.35597 secs using 96.54% CPU
+Optimizing NNI: done in 2.37583 secs using 96.95% CPU
+Optimizing NNI: done in 2.41211 secs using 96.58% CPU
+Optimizing NNI: done in 2.47967 secs using 96.99% CPU
+Optimizing NNI: done in 2.46808 secs using 96.49% CPU
+Optimizing NNI: done in 2.52108 secs using 97.07% CPU
+Optimizing NNI: done in 2.84698 secs using 96.36% CPU
+Optimizing NNI: done in 2.54078 secs using 95.95% CPU
+Optimizing NNI: done in 2.29153 secs using 96.1% CPU
+Iteration 740 / LogL: -32393.015 / Time: 0h:34m:33s (0h:1m:7s left)
+Optimizing NNI: done in 2.43156 secs using 96.85% CPU
+Optimizing NNI: done in 2.75783 secs using 96.36% CPU
+Optimizing NNI: done in 2.44792 secs using 97.19% CPU
+Optimizing NNI: done in 2.92894 secs using 97.17% CPU
+Optimizing NNI: done in 2.47861 secs using 96.94% CPU
+Optimizing NNI: done in 2.64557 secs using 96.25% CPU
+Optimizing NNI: done in 2.40955 secs using 96.82% CPU
+Optimizing NNI: done in 2.36138 secs using 96.38% CPU
+Optimizing NNI: done in 2.2005 secs using 96.09% CPU
+Optimizing NNI: done in 2.53437 secs using 96.34% CPU
+Iteration 750 / LogL: -32416.357 / Time: 0h:34m:59s (0h:0m:39s left)
+Optimizing NNI: done in 2.36988 secs using 96.9% CPU
+Optimizing NNI: done in 2.91521 secs using 96.44% CPU
+Optimizing NNI: done in 2.33966 secs using 96.86% CPU
+Optimizing NNI: done in 2.50109 secs using 96.37% CPU
+Optimizing NNI: done in 2.2222 secs using 97.56% CPU
+Optimizing NNI: done in 2.37044 secs using 96.48% CPU
+Optimizing NNI: done in 2.65255 secs using 96.79% CPU
+Optimizing NNI: done in 2.67331 secs using 96.55% CPU
+Optimizing NNI: done in 2.49011 secs using 96.8% CPU
+Optimizing NNI: done in 2.65435 secs using 96.83% CPU
+Iteration 760 / LogL: -32394.661 / Time: 0h:35m:25s (0h:0m:11s left)
+Optimizing NNI: done in 2.69885 secs using 97.54% CPU
+Optimizing NNI: done in 2.52712 secs using 96.68% CPU
+Optimizing NNI: done in 2.76435 secs using 97.74% CPU
+Optimizing NNI: done in 2.71017 secs using 97.55% CPU
+Optimizing NNI: done in 2.59466 secs using 97.03% CPU
+TREE SEARCH COMPLETED AFTER 765 ITERATIONS / Time: 0h:35m:38s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -32376.369
+Optimal log-likelihood: -32376.357
+Rate parameters:  A-C: 3.29104  A-G: 7.77123  A-T: 1.06878  C-G: 1.27321  C-T: 12.64682  G-T: 1.00000
+Base frequencies:  A: 0.337  C: 0.185  G: 0.257  T: 0.221
+Proportion of invariable sites: 0.134
+Site proportion and rates:  (0.302,0.064) (0.120,0.329) (0.129,0.820) (0.077,1.268) (0.129,2.052) (0.084,3.790) (0.024,6.388)
+Parameters optimization took 1 rounds (1.160 sec)
+BEST SCORE FOUND : -32376.357
+Total tree length: 31.017
+
+Total number of iterations: 765
+CPU time used for tree search: 2068.528 sec (0h:34m:28s)
+Wall-clock time used for tree search: 2134.378 sec (0h:35m:34s)
+Total CPU time used: 2074.326 sec (0h:34m:34s)
+Total wall-clock time used: 2140.146 sec (0h:35m:40s)
+
+Analysis results written to: 
+  IQ-TREE report:                /cfs/earth/scratch/iglh/Masterthesis_Mickaël/data/vpr/HIV-1_vpr_DNA_mafft_alignment.fasta.iqtree
+  Maximum-likelihood tree:       /cfs/earth/scratch/iglh/Masterthesis_Mickaël/data/vpr/HIV-1_vpr_DNA_mafft_alignment.fasta.treefile
+  Likelihood distances:          /cfs/earth/scratch/iglh/Masterthesis_Mickaël/data/vpr/HIV-1_vpr_DNA_mafft_alignment.fasta.mldist
+  Screen log file:               /cfs/earth/scratch/iglh/Masterthesis_Mickaël/data/vpr/HIV-1_vpr_DNA_mafft_alignment.fasta.log
+
+--- Start phylogenetic dating ---
+Reading date file /cfs/earth/scratch/iglh/Masterthesis_Mickaël/data/vpr/date_file_vpr.txt ...
+698 dates extracted
+Building time tree by least-square dating (LSD) with command:
+lsd -i /cfs/earth/scratch/iglh/Masterthesis_Mickaël/data/vpr/HIV-1_vpr_DNA_mafft_alignment.fasta.timetree.subst -s 333 -o /cfs/earth/scratch/iglh/Masterthesis_Mickaël/data/vpr/HIV-1_vpr_DNA_mafft_alignment.fasta.timetree -g /cfs/earth/scratch/iglh/Masterthesis_Mickaël/data/vpr/HIV-1_vpr_DNA_mafft_alignment.fasta.timetree.outgroup -d /cfs/earth/scratch/iglh/Masterthesis_Mickaël/data/vpr/HIV-1_vpr_DNA_mafft_alignment.fasta.timetree.date -l 0.0 -u 0.00001 
+Reroot the tree(s) using given outgroups ...
+
+TREE 1
+*PROCESSING:
+Reading the tree ... 
+Collapse 0 (over 696) internal branches having branch length <= 0
+ (settable via option -l)
+Parameter to adjust variances was set to 0.03 (settable via option -b)
+Minimum branch length of time scaled tree (settable via option -u and -U): 1e-05
+Estimating the root position on the branch defined by given outgroups ...
+
+*RESULTS:
+- Dating results:
+ rate 0.00122074, tMRCA 1962-09-26 , objective function 2.94288
+
+TOTAL ELAPSED TIME: 0.353 seconds
+LSD results written to:
+  LSD report:                  /cfs/earth/scratch/iglh/Masterthesis_Mickaël/data/vpr/HIV-1_vpr_DNA_mafft_alignment.fasta.timetree.lsd
+  Time tree in nexus format:   /cfs/earth/scratch/iglh/Masterthesis_Mickaël/data/vpr/HIV-1_vpr_DNA_mafft_alignment.fasta.timetree.nex
+  Time tree in newick format:  /cfs/earth/scratch/iglh/Masterthesis_Mickaël/data/vpr/HIV-1_vpr_DNA_mafft_alignment.fasta.timetree.nwk
+
+--- End phylogenetic dating ---
+Date and Time: Fri Sep  1 02:52:21 2023
