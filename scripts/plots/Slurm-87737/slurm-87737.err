@@ -1,0 +1,9 @@
+
+The following have been reloaded with a version change:
+  1) USS/2022 => USS/2020
+
+/cfs/earth/scratch/sepe/TM/scripts/plots/Wasserstein_distance.py:154: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  only_position_indel.drop_duplicates(inplace=True)

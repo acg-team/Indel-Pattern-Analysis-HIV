@@ -1,0 +1,46 @@
+                              child  ... position in ref
+11                             V261  ...           139.5
+56                              V43  ...           149.0
+57                              V43  ...           150.0
+61                              V41  ...           139.5
+64                              V41  ...           139.5
+...                             ...  ...             ...
+6251104  B.ES.1999.30_1_21.KC595159  ...           148.5
+6251142                        N358  ...           135.0
+6251143                        N358  ...           135.5
+6251216   B.FR.1992.PHI120.AF041125  ...           142.5
+6251222   B.FR.1992.PHI120.AF041125  ...           150.0
+
+[60053 rows x 5 columns]
+combination          Historian-ArPIP  ...  prank-grasp
+combination                           ...             
+Historian-ArPIP             0.000000  ...     0.940477
+Historian-FastML            0.411100  ...     0.763968
+Historian-Historian         0.040650  ...     0.935378
+Historian-IndelMAP          0.033257  ...     0.958423
+Historian-grasp             0.060919  ...     0.903692
+IndelMAP-ArPIP              1.492876  ...     0.866143
+IndelMAP-FastML             1.503896  ...     0.889113
+IndelMAP-Historian          0.588819  ...     0.586903
+IndelMAP-IndelMAP           1.533329  ...     0.909551
+IndelMAP-grasp              1.529695  ...     0.903874
+ProPIP-ArPIP                1.493263  ...     0.782216
+ProPIP-FastML               1.645646  ...     0.899627
+ProPIP-Historian            0.789028  ...     0.988455
+ProPIP-IndelMAP             1.507640  ...     0.788975
+ProPIP-grasp                1.557234  ...     0.832597
+mafft-ArPIP                 1.199812  ...     0.701232
+mafft-FastML                1.595018  ...     0.959346
+mafft-Historian             1.010074  ...     0.923091
+mafft-IndelMAP              1.188848  ...     0.662005
+mafft-grasp                 1.130729  ...     0.607777
+prank-ArPIP                 0.940643  ...     0.055236
+prank-FastML                1.161630  ...     0.354854
+prank-Historian             0.757524  ...     0.668238
+prank-IndelMAP              0.939913  ...     0.019539
+prank-grasp                 0.940477  ...     0.000000
+
+[25 rows x 25 columns]
+Plot saved at /cfs/earth/scratch/sepe/TM/results/results/plots/wasserstein
+The data is not normally distributed, Perform a Mann-Whitney U test
+{'mean_msa_diff': 0.9684575578047919, 'mean_asr_diff': 0.5184935182712999, 'u_stat': 1931.0, 'p_value': 2.7154832705212753e-06}
